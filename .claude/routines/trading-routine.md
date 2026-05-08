@@ -134,13 +134,24 @@ Identify 1–3 stocks that fit today's trading style. For each, define:
 - Risk: what would invalidate the thesis
 
 **Position sizing (apply BEFORE deciding to trade):**
+
+For NEW positions (first entry into a ticker not already in positions.json):
 ```
-max_dollars = portfolio_value x max_position_pct   (from config.json, default 0.10)
-qty = floor(max_dollars / current_price)
+initial_dollars = portfolio_value x initial_position_pct   (from config.json, default 0.05)
+qty = floor(initial_dollars / current_price)
 ```
-- Never exceed max_position_pct in a single stock
+
+For ADDING to an existing position (ticker already in positions.json):
+```
+current_value = existing_qty x current_price
+headroom = (portfolio_value x max_position_pct) - current_value
+qty = floor(headroom / current_price)
+```
+
+- New entries are intentionally capped at initial_position_pct (5%). This is by design — scale into winners over multiple sessions, not all at once.
+- Never let any single position exceed max_position_pct (10%) of portfolio value.
 - Count current open positions. If already at max_open_positions, no new entries.
-- Round qty DOWN to whole shares always
+- Round qty DOWN to whole shares always.
 
 **Conservative bias:** When uncertain, do nothing. Capital preservation > making trades.
 
@@ -245,7 +256,13 @@ Portfolio:
 - Total value: $[X]
 - Unrealised P&L: $[X]
 
-Notes: [1-2 sentences on key observations or what to watch]
+Notes:
+[Write 3-5 sentences in plain English for an amateur investor with no trading background. Explain what happened today and why — what you bought or passed on, and the simple reason behind each choice. If you use any trading term (e.g. "trailing stop", "earnings beat", "price target", "pullback", "resistance"), define it immediately in plain words. Explain what this means for the user's actual money: is the position safe, what could go wrong, what are you hoping will happen. End with what to watch next session and explain why it matters to the portfolio.]
+
+Sources:
+- [Short description of the claim — e.g. "Citizens analyst price target $95"]: [Publication or analyst firm], [date], [URL if available]
+- [Another externally sourced claim]: [Source], [date], [URL if available]
+(Include every number, analyst opinion, or news fact cited in Notes. Omit this section entirely if Notes contains no external claims. Keep each line to one source. Telegram auto-links URLs — paste them in full.)
 ```
 
 Run:
