@@ -296,6 +296,28 @@ Next Week: [1-2 sentences on approach adjustments or themes to watch]
 
 ---
 
+## Step 10: Persist Memory to GitHub
+
+After all memory files are written and the Telegram summary is sent, push the updated memory files to the remote repository so the next session has access to the latest state regardless of where it runs.
+
+Run the following commands in sequence:
+
+```
+git add memory/positions.json memory/session_log.jsonl memory/performance.json memory/market_context.md
+git commit -m "chore: session update [today's date]"
+git push origin main
+```
+
+**On failure:** If any git command fails (authentication error, network issue, no remote configured), do NOT abort or retry. Instead, append a brief warning to the Telegram daily summary already sent:
+
+```
+python telegram_notify.py "Warning: git push failed — memory files saved locally but not pushed to GitHub. Manual push may be needed."
+```
+
+The session data is already written to disk; the push is best-effort for cloud persistence only.
+
+---
+
 ## Critical Rules (Never Break These)
 
 1. **Always check `halt` flag first** — if true, stop immediately
