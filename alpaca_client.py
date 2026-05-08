@@ -1,0 +1,80 @@
+import os
+import json
+import time
+import requests
+from datetime import datetime, timedelta, timezone
+
+from alpaca.trading.client import TradingClient
+from alpaca.trading.requests import (
+    MarketOrderRequest,
+    TrailingStopOrderRequest,
+    GetCalendarRequest,
+)
+from alpaca.trading.enums import OrderSide, TimeInForce
+from alpaca.data.historical import StockHistoricalDataClient
+from alpaca.data.requests import StockBarsRequest
+from alpaca.data.timeframe import TimeFrame
+
+_CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.json')
+
+
+def _load_config():
+    with open(_CONFIG_PATH) as f:
+        return json.load(f)
+
+
+def _get_trading_client():
+    api_key = os.environ['ALPACA_API_KEY']
+    secret_key = os.environ['ALPACA_SECRET_KEY']
+    base_url = os.environ.get('ALPACA_BASE_URL', 'https://paper-api.alpaca.markets')
+    paper = 'paper' in base_url
+    return TradingClient(api_key, secret_key, paper=paper)
+
+
+def _get_data_client():
+    api_key = os.environ['ALPACA_API_KEY']
+    secret_key = os.environ['ALPACA_SECRET_KEY']
+    return StockHistoricalDataClient(api_key, secret_key)
+
+
+def _retry_once(func, *args, **kwargs):
+    try:
+        return func(*args, **kwargs)
+    except Exception:
+        time.sleep(30)
+        return func(*args, **kwargs)
+
+
+def get_calendar(date_str=None):
+    if date_str is None:
+        date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    target = datetime.strptime(date_str, '%Y-%m-%d').date()
+    client = _get_trading_client()
+    req = GetCalendarRequest(start=target, end=target)
+    calendar = client.get_calendar(req)
+    return len(calendar) > 0
+
+
+def get_portfolio():
+    client = _get_trading_client()
+    account = _retry_once(client.get_account)
+    positions = _retry_once(client.get_all_positions)
+
+    positions_list = []
+    for p in positions:
+        positions_list.append({
+            'symbol': p.symbol,
+            'qty': float(p.qty),
+            'avg_entry_price': float(p.avg_entry_price),
+            'market_value': float(p.market_value),
+            'unrealized_pl': float(p.unrealized_pl),
+            'unrealized_plpc': float(p.unrealized_plpc),
+            'current_price': float(p.current_price),
+        })
+
+    return {
+        'cash': float(account.cash),
+        'buying_power': float(account.buying_power),
+        'portfolio_value': float(account.portfolio_value),
+        'positions': positions_list,
+    }
