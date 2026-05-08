@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "symbol": "RKLB",
+    "qty": 117,
+    "entry_price": 99.026752,
+    "entry_date": "2026-05-08",
+    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "stop_loss_pct": 0.05,
+    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+  }
+]
