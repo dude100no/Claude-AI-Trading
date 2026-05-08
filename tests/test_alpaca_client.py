@@ -157,3 +157,78 @@ def test_get_news_no_symbols_omits_symbols_param():
 
         call_kwargs = mock_get.call_args
         assert 'symbols' not in call_kwargs.kwargs.get('params', {})
+
+
+# --- place_order ---
+
+def test_place_order_raises_when_halted(tmp_path):
+    config = {'halt': True, 'max_position_pct': 0.10, 'stop_loss_pct': 0.05, 'max_open_positions': 5}
+    (tmp_path / 'config.json').write_text(json.dumps(config))
+
+    with patch('alpaca_client._CONFIG_PATH', str(tmp_path / 'config.json')):
+        import alpaca_client
+        with pytest.raises(RuntimeError, match='Kill switch active'):
+            alpaca_client.place_order('AAPL', 5, 'buy', 0.05)
+
+
+def test_place_order_buy_places_market_and_trailing_stop(tmp_path):
+    config = {'halt': False, 'max_position_pct': 0.10, 'stop_loss_pct': 0.05, 'max_open_positions': 5}
+    (tmp_path / 'config.json').write_text(json.dumps(config))
+
+    mock_client = MagicMock()
+    mock_order = MagicMock()
+    mock_order.id = 'order-123'
+    mock_order.status = 'accepted'
+    mock_stop = MagicMock()
+    mock_stop.id = 'stop-456'
+    mock_client.submit_order.side_effect = [mock_order, mock_stop]
+
+    with patch('alpaca_client._CONFIG_PATH', str(tmp_path / 'config.json')), \
+         patch('alpaca_client._get_trading_client', return_value=mock_client):
+        import alpaca_client
+        result = alpaca_client.place_order('AAPL', 5, 'buy', 0.05)
+
+    assert result['symbol'] == 'AAPL'
+    assert result['qty'] == 5.0
+    assert result['side'] == 'buy'
+    assert result['order_id'] == 'order-123'
+    assert result['stop_order_id'] == 'stop-456'
+    assert mock_client.submit_order.call_count == 2
+
+
+def test_place_order_sell_does_not_place_stop(tmp_path):
+    config = {'halt': False, 'max_position_pct': 0.10, 'stop_loss_pct': 0.05, 'max_open_positions': 5}
+    (tmp_path / 'config.json').write_text(json.dumps(config))
+
+    mock_client = MagicMock()
+    mock_order = MagicMock()
+    mock_order.id = 'sell-789'
+    mock_order.status = 'accepted'
+    mock_client.submit_order.return_value = mock_order
+
+    with patch('alpaca_client._CONFIG_PATH', str(tmp_path / 'config.json')), \
+         patch('alpaca_client._get_trading_client', return_value=mock_client):
+        import alpaca_client
+        result = alpaca_client.place_order('AAPL', 5, 'sell', 0.05)
+
+    assert result['side'] == 'sell'
+    assert result['stop_order_id'] is None
+    assert mock_client.submit_order.call_count == 1
+
+
+# --- close_position ---
+
+def test_close_position_returns_order_details():
+    mock_client = MagicMock()
+    mock_result = MagicMock()
+    mock_result.id = 'close-999'
+    mock_result.status = 'accepted'
+    mock_client.close_position.return_value = mock_result
+
+    with patch('alpaca_client._get_trading_client', return_value=mock_client):
+        import alpaca_client
+        result = alpaca_client.close_position('TSLA')
+
+    assert result['symbol'] == 'TSLA'
+    assert result['order_id'] == 'close-999'
+    mock_client.close_position.assert_called_once_with('TSLA')

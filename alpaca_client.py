@@ -141,3 +141,72 @@ def get_news(symbols=None, limit=10):
         }
         for a in data.get('news', [])
     ]
+
+
+def place_order(symbol, qty, side, stop_loss_pct):
+    config = _load_config()
+    if config.get('halt'):
+        raise RuntimeError('Kill switch active — trading halted')
+
+    client = _get_trading_client()
+    order_side = OrderSide.BUY if side == 'buy' else OrderSide.SELL
+
+    market_req = MarketOrderRequest(
+        symbol=symbol,
+        qty=qty,
+        side=order_side,
+        time_in_force=TimeInForce.DAY,
+    )
+    order = _retry_once(client.submit_order, market_req)
+
+    stop_order = None
+    if side == 'buy':
+        stop_req = TrailingStopOrderRequest(
+            symbol=symbol,
+            qty=qty,
+            side=OrderSide.SELL,
+            time_in_force=TimeInForce.GTC,
+            trail_percent=round(stop_loss_pct * 100, 2),
+        )
+        stop_order = _retry_once(client.submit_order, stop_req)
+
+    return {
+        'order_id': str(order.id),
+        'symbol': symbol,
+        'qty': float(qty),
+        'side': side,
+        'status': str(order.status),
+        'stop_order_id': str(stop_order.id) if stop_order else None,
+    }
+
+
+def close_position(symbol):
+    client = _get_trading_client()
+    result = _retry_once(client.close_position, symbol)
+    return {
+        'symbol': symbol,
+        'order_id': str(result.id),
+        'status': str(result.status),
+    }
+
+
+if __name__ == '__main__':
+    import sys
+
+    cmd = sys.argv[1]
+    args = sys.argv[2:]
+
+    dispatch = {
+        'check_calendar': lambda: get_calendar(args[0] if args else None),
+        'get_portfolio': lambda: get_portfolio(),
+        'get_market_data': lambda: get_market_data(args[0].split(',')),
+        'get_news': lambda: get_news(
+            args[0].split(',') if args and args[0] else None,
+            int(args[1]) if len(args) > 1 else 10,
+        ),
+        'place_order': lambda: place_order(args[0], int(args[1]), args[2], float(args[3])),
+        'close_position': lambda: close_position(args[0]),
+    }
+
+    result = dispatch[cmd]()
+    print(json.dumps(result))
