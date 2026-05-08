@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+cd "Claude-AI-Trading"
+
 if ! command -v python3 &>/dev/null && ! command -v python &>/dev/null; then
   echo "ERROR: Python 3 not found." && exit 1
 fi
