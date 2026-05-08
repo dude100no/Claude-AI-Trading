@@ -1,0 +1,7 @@
+{
+  "max_position_pct": 0.10,
+  "stop_loss_pct": 0.05,
+  "max_open_positions": 5,
+  "paper_trading": true,
+  "halt": false
+}
