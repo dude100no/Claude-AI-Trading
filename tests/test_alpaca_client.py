@@ -79,3 +79,81 @@ def test_get_portfolio_empty_positions():
 
     assert result['positions'] == []
     assert result['cash'] == 5000.0
+
+
+# --- get_market_data ---
+
+def test_get_market_data_returns_ohlcv_per_symbol():
+    mock_bar = MagicMock()
+    mock_bar.timestamp = MagicMock()
+    mock_bar.timestamp.strftime.return_value = '2024-01-02'
+    mock_bar.open = 150.0
+    mock_bar.high = 155.0
+    mock_bar.low = 149.0
+    mock_bar.close = 153.0
+    mock_bar.volume = 1000000
+
+    mock_bars_data = {'AAPL': [mock_bar]}
+    mock_data_client = MagicMock()
+    mock_data_client.get_stock_bars.return_value = mock_bars_data
+
+    with patch('alpaca_client._get_data_client', return_value=mock_data_client):
+        import alpaca_client
+        result = alpaca_client.get_market_data(['AAPL'])
+
+    assert 'AAPL' in result
+    assert len(result['AAPL']) == 1
+    assert result['AAPL'][0]['close'] == 153.0
+    assert result['AAPL'][0]['volume'] == 1000000
+
+
+def test_get_market_data_returns_empty_for_missing_symbol():
+    mock_data_client = MagicMock()
+    mock_data_client.get_stock_bars.return_value = {}
+
+    with patch('alpaca_client._get_data_client', return_value=mock_data_client):
+        import alpaca_client
+        result = alpaca_client.get_market_data(['UNKNOWN'])
+
+    assert result['UNKNOWN'] == []
+
+
+# --- get_news ---
+
+def test_get_news_returns_headlines():
+    api_response = {
+        'news': [
+            {
+                'headline': 'AAPL hits record high',
+                'summary': 'Apple stock surged on strong earnings.',
+                'symbols': ['AAPL'],
+                'created_at': '2024-01-02T10:00:00Z',
+                'url': 'https://example.com/news/1',
+            }
+        ]
+    }
+    mock_response = MagicMock()
+    mock_response.json.return_value = api_response
+    mock_response.raise_for_status = MagicMock()
+
+    with patch('requests.get', return_value=mock_response):
+        import alpaca_client
+        result = alpaca_client.get_news(['AAPL'], limit=5)
+
+    assert len(result) == 1
+    assert result[0]['headline'] == 'AAPL hits record high'
+    assert result[0]['symbols'] == ['AAPL']
+
+
+def test_get_news_no_symbols_omits_symbols_param():
+    api_response = {'news': []}
+    mock_response = MagicMock()
+    mock_response.json.return_value = api_response
+    mock_response.raise_for_status = MagicMock()
+
+    with patch('requests.get', return_value=mock_response) as mock_get:
+        import alpaca_client
+        alpaca_client.get_news(symbols=None, limit=10)
+
+        call_kwargs = mock_get.call_args
+        assert 'symbols' not in call_kwargs.kwargs.get('params', {})

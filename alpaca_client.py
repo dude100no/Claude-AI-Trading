@@ -78,3 +78,66 @@ def get_portfolio():
         'portfolio_value': float(account.portfolio_value),
         'positions': positions_list,
     }
+
+
+def get_market_data(symbols, days=5):
+    end = datetime.now(timezone.utc)
+    start = end - timedelta(days=days + 7)
+
+    client = _get_data_client()
+    req = StockBarsRequest(
+        symbol_or_symbols=symbols,
+        timeframe=TimeFrame.Day,
+        start=start,
+        end=end,
+    )
+    bars_data = _retry_once(client.get_stock_bars, req)
+
+    result = {}
+    for symbol in symbols:
+        raw = list(bars_data[symbol]) if symbol in bars_data else []
+        result[symbol] = [
+            {
+                'date': bar.timestamp.strftime('%Y-%m-%d'),
+                'open': float(bar.open),
+                'high': float(bar.high),
+                'low': float(bar.low),
+                'close': float(bar.close),
+                'volume': int(bar.volume),
+            }
+            for bar in raw[-days:]
+        ]
+    return result
+
+
+def get_news(symbols=None, limit=10):
+    api_key = os.environ['ALPACA_API_KEY']
+    secret_key = os.environ['ALPACA_SECRET_KEY']
+
+    params = {'limit': limit}
+    if symbols:
+        params['symbols'] = ','.join(symbols)
+
+    resp = _retry_once(
+        requests.get,
+        'https://data.alpaca.markets/v1beta1/news',
+        headers={
+            'APCA-API-KEY-ID': api_key,
+            'APCA-API-SECRET-KEY': secret_key,
+        },
+        params=params,
+        timeout=10,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+
+    return [
+        {
+            'headline': a['headline'],
+            'summary': a.get('summary', ''),
+            'symbols': a.get('symbols', []),
+            'created_at': a['created_at'],
+            'url': a.get('url', ''),
+        }
+        for a in data.get('news', [])
+    ]
