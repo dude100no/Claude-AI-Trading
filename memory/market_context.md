@@ -1,21 +1,26 @@
 # Market Context — 2026-05-11
 
-**Sentiment:** Mixed
+**Sentiment:** Mixed (cautious)
 **VIX:** 17.19
-**Key indices:** SPY $736.73, QQQ $711.23 (futures -0.1%)
+**Key indices:** SPY record high (7,398.93 Friday close), QQQ $711.23 Friday close / -0.11% pre-market Monday
 **Style used today:** Defensive/Hold
 
 **Key observations:**
-- Trump rejected Iran's latest peace proposal; Brent oil surged to $104-111/barrel (+3.5%), Strait of Hormuz closure ongoing since Feb 28 — structural tailwind for energy (OXY, XOM, CVX, EOG), headwind for airlines and inflation
-- RKLB thesis strongly reinforced: Needham and TD Cowen both raised PTs to $120 (from $90), current price ~$106.20; entry at $99.03 shows +7.24% unrealized P&L (+$839); stock was up 34% on Friday May 8
-- CPI release Tuesday May 12 at 8:30 AM ET — consensus headline +0.6% MoM / +3.7% YoY; core +0.3% MoM / +2.7% YoY — single biggest risk event of the week; hot print could hurt equities broadly
-- Ed Yardeni raised S&P 500 target to 8,250, warns of potential "meltup" — bullish long-term but underscores that positioning may be crowded
-- UAE left OPEC May 1, 2026 — structural shift in oil market; US upstream (XOM, CVX, OXY, EOG) positioned as direct beneficiaries; refiners and airlines face margin pressure
-- Intel (INTC) +5.7% on reports of preliminary agreement to manufacture chips for Apple devices — potential semiconductor momentum play; Moderna +7.5% on hantavirus vaccine development
+- Trump rejected Iran's latest peace proposal; Brent crude at $104.80 (+3.5%), Strait of Hormuz closure ongoing — structural energy supply crunch and inflationary pressure
+- CPI release Tuesday May 12 at 8:30 AM ET is the week's dominant risk event; consensus headline +0.6% MoM / +3.7% YoY; core +0.3% MoM / +2.7% YoY; oil at $104 raises probability of upside surprise
+- RKLB thesis fully validated: current price $105.05, +10.4% from $99.03 entry; Needham reaffirmed Buy with $120 PT today; TD Cowen also $120 PT; unrealised P&L +$1,199 on 117 shares; trailing stop ~5% below current (~$99.80)
+- RKLB at 12.6% of portfolio — above 10% cap; no adds
+- DDOG at $199.64 — soared 31% on earnings (Q1 revenue $1.006B, +32% YoY); multiple analysts raised PTs to $215-225; too extended above $185-190 entry zone; wait for consolidation
+- LLY at ~$948 (down from $975) — FDA liver failure report on Foundayo GLP-1 drug caused sell-off; RBC and Evercore say reaction overdone; Q1 earnings beat; 60% US obesity market share; PT consensus $1,226 (Barclays $1,400); strong long-term entry if CPI benign
+- V (Visa) at $318.15 — Q2 FY2026 revenue +17%, $20B buyback announced; consensus PT $396 (+24% upside); excellent moat; Financials slot empty in portfolio
+- OXY deferred: CEO Vicki Hollub retiring (COO Richard Jackson replacing her) — Berkshire backing was tied to Hollub specifically; Truist PT lowered to $57 from $65; Q1 EPS beat but revenue miss; reassess after management transition clarity
+- Micron (MU) at $789 (+5% today), up 700%+ YoY on AI memory super-cycle; too overbought for clean entry
+- INTC above $120, up 240% YTD on Apple chip foundry deal — too extended
 
-**Watching next session:**
-- CPI Tuesday: if in-line or below consensus, consider OXY entry (~$53); if hot, remain fully defensive
-- RKLB: trailing stop ~5% below current price (~$100.89 at $106.20). Watch for move toward $120 PT; any Neutron rocket development/launch news could re-rate higher. No adds while above 10% cap
-- OXY: potential first entry at ~$53 after CPI clarity; Q1 earnings strong, Berkshire Hathaway backing, oil structurally supported by Hormuz closure; 52-week high $67.45 (28% upside from current)
-- DDOG: watching for pullback to $185-190 zone; KeyBanc and Canaccord PTs at $225; was $194 on May 8
-- INTC: watch for post-gap consolidation after Apple chip deal; entry on pullback if semiconductor sector momentum continues
+**Watching next session (Tuesday/Wednesday post-CPI):**
+- CPI Tuesday May 12: if in-line or below → initiate LLY (~$930-960) and V (~$315-320) on Wednesday
+- CPI hot (headline >+0.7% MoM) → remain defensive; revisit all candidates after market settles
+- RKLB: no action; watch for continued move toward $120 PT; stop at ~$99.80
+- DDOG: entry only on pullback to $190-195 post-CPI; PT cluster $215-225
+- OXY: monitor CEO transition; re-evaluate when Richard Jackson provides strategic direction (likely Q2 earnings call June)
+- LLY entry thesis: FDA Foundayo concern is manageable (similar reports across all GLP-1s per Evercore ISI); obesity drug market growing to $100B by decade-end; Lilly at 60% US market share; PT $1,226-1,400 vs current ~$948
