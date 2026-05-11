@@ -6,6 +6,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 An autonomous AI trading agent that runs on a cron schedule (Mon–Fri 7 AM ET). The agent researches markets, decides on trades, executes orders via Alpaca, persists state across sessions, and sends a Telegram summary. The routine definition lives in `.claude/routines/trading-routine.md`.
 
+## Directory Structure
+
+```
+Claude-AI-Trading/
+├── .claude/
+│   ├── routines/
+│   │   └── trading-routine.md   # Cron routine definition (schedule + agent instructions)
+│   └── settings.json            # Claude Code permissions and hook config
+├── memory/                      # Persisted state — rewritten each session
+│   ├── positions.json           # Open positions with entry price and thesis
+│   ├── session_log.jsonl        # Append-only session history (trades, sentiment)
+│   ├── performance.json         # Cumulative P&L, win/loss counts, closed trades
+│   └── market_context.md        # Current market assessment and watch list
+├── tests/
+│   ├── test_alpaca_client.py    # Unit tests for all Alpaca functions (mocked)
+│   └── test_telegram_notify.py  # Unit tests for Telegram notify (mocked)
+├── docs/
+│   └── superpowers/             # Plans and specs for feature development
+├── logs/                        # Runtime logs (gitignored except .gitkeep)
+├── alpaca_client.py             # Alpaca API wrapper + CLI entry point
+├── telegram_notify.py           # Telegram Bot API wrapper + CLI entry point
+├── config.json                  # Risk controls and feature flags (committed, no secrets)
+├── requirements.txt             # Python dependencies
+└── setup.sh                     # One-shot setup: venv, deps, memory init, tests
+```
+
 ## Environment Variables
 
 All secrets are passed as environment variables — nothing is hardcoded:
