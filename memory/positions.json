@@ -1,11 +1,35 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "QCOM",
+    "qty": 21,
+    "entry_price": 229.25,
+    "entry_date": "2026-05-12",
+    "thesis": "AI data center CPU entering hyperscaler by end-2026; Q2 FY2026 EPS $2.65 beat consensus (net income doubled to $7.37B); Daiwa upgraded to Outperform with PT $225, Tigress PT $280; CEO Cristiano Amon joining Trump-China trade trip May 12 — direct catalyst for Qualcomm's China business; Arm-based inference + smartphone market share are stable revenue floors. Long-term hold targeting $280.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "pending-QCOM",
+    "stop_order_id": null,
+    "note": "Trailing stop NOT attached — Alpaca rejected stop order pre-market (open buy order restriction). Manual stop required at market open."
+  },
+  {
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.90,
+    "entry_date": "2026-05-12",
+    "thesis": "Cloud observability and security monitoring market leader. Q1 FY2026 beat: raised full-year guidance to $4.30-4.34B (from $4.06-4.10B prior). Multiple analyst upgrades post-Q1: Guggenheim $225, Evercore $225, Wedbush $220, Barclays $215. AI observability is a structural growth driver as enterprises scale AI workloads and need monitoring. 12-15% upside to near-term analyst PTs.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pending-DDOG",
+    "stop_order_id": null,
+    "note": "Trailing stop NOT attached — Alpaca rejected stop order pre-market (open buy order restriction). Manual stop required at market open."
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 494.16,
+    "entry_date": "2026-05-12",
+    "thesis": "First and only FDA-approved MASH (metabolic-associated steatohepatitis) drug — Rezdiffra. Q1 2026: $311.3M revenue (+127% YoY), beat $308.3M estimate. FY2026 guidance $635M+, FY2027 $775M+. Strong Buy consensus (13 analysts), avg PT $671.58 (+31% upside from $512). Shares dipped on Q1 beat = good entry. No competitors approved in MASH; durable moat as first-mover with ongoing global launch. Healthcare sector diversification.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pending-MDGL",
+    "stop_order_id": null,
+    "note": "Trailing stop NOT attached — Alpaca rejected stop order pre-market (open buy order restriction). Manual stop required at market open."
   }
 ]
