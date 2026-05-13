@@ -1,7 +1,30 @@
 {
-  "total_realized_pl": 0.0,
-  "total_trades": 0,
-  "winning_trades": 0,
-  "losing_trades": 0,
-  "trade_history": []
+  "total_realized_pl": -77.64,
+  "total_trades": 2,
+  "winning_trades": 1,
+  "losing_trades": 1,
+  "trade_history": [
+    {
+      "symbol": "RKLB",
+      "side": "buy",
+      "qty": 117,
+      "entry_price": 99.026752,
+      "entry_date": "2026-05-08",
+      "exit_price": 100.89,
+      "exit_date": "2026-05-12",
+      "realized_pl": 217.62,
+      "notes": "Trailing stop triggered in May 12 broad market selloff (hot CPI shock). Estimated exit at ~$100.89 (5% trailing from May 11 high of $106.20). Stock had risen 7.24% from entry before reversal. Thesis was valid — Needham and TD Cowen raised PTs to $120 — but macro risk overwhelmed the position."
+    },
+    {
+      "symbol": "QCOM",
+      "side": "buy",
+      "qty": 21,
+      "entry_price": 226.094286,
+      "entry_date": "2026-05-12",
+      "exit_price": 212.03,
+      "exit_date": "2026-05-13",
+      "realized_pl": -295.26,
+      "notes": "Closed due to broken thesis: position entered after 64% monthly run-up, fell 6.14% from entry exceeding 5% trailing stop. Korea semiconductor shockwave + hot CPI drove selloff. Nvidia competition in Windows processors is a structural threat. Negative earnings growth ahead at 20x forward P/E. Close order accepted (order_id: e0713796-0c72-41e1-beb5-a6b7380be724)."
+    }
+  ]
 }

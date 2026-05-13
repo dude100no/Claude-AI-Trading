@@ -1,11 +1,30 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-12",
+    "thesis": "Strong Q1 2026 earnings beat: EPS $0.60 vs $0.42 expected (+43%), revenue $1.01B vs $960M estimate. Raised full-year 2026 revenue guidance to $4.30-4.34B (from $4.06-4.10B) and EPS to $2.36-2.44. Strong Buy consensus from 31 of 33 analysts, avg PT $204.82. Cloud observability and monitoring is essential AI-era infrastructure with sticky enterprise contracts. Goldman Sachs maintains Sell at $139 (outlier). Hold for 3-6 months.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "unknown-session-not-logged"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-12",
+    "thesis": "Madrigal Pharmaceuticals — Rezdiffra (resmetirom) is the first FDA-approved treatment for MASH (metabolic dysfunction-associated steatohepatitis). Q1 2026 Rezdiffra net sales +127% YoY to $311.3M. Consensus 2026 full-year sales $1.52B. Strong Buy consensus from 13 analysts, avg PT $671.58 (33% upside from $505). Large addressable market (estimated 16-20M MASH patients in the US), accelerating physician adoption. Key risk: GLP-1 competition and payer pushback on pricing. Long-term hold.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-session-not-logged"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 323.86,
+    "entry_date": "2026-05-13",
+    "thesis": "Visa is the world's largest payment network with 4.9B credentials and 53% profit margins. Revenue $40B (+11% YoY). Payment volumes are inflation-resilient — higher nominal prices actually increase Visa's transaction revenue. Strong Buy consensus from 21 analysts, avg PT $387.25 (19.6% upside). Acts as a financial infrastructure monopoly not exposed to credit risk. Entry at CPI-driven market weakness. 12-month hold target.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pending-buy-no-stop-api-limitation",
+    "notes": "WARNING: Trailing stop order FAILED due to Alpaca paper trading API limitation (cannot place stop while buy order pending). Position has NO stop-loss protection. Must manually verify and add stop at next session."
   }
 ]
