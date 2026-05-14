@@ -1,21 +1,23 @@
-# Market Context — 2026-05-11
+# Market Context — 2026-05-14
 
-**Sentiment:** Mixed
-**VIX:** 17.19
-**Key indices:** SPY $736.73, QQQ $711.23 (futures -0.1%)
+**Sentiment:** Mixed (bullish momentum vs. persistent inflation headwinds)
+**VIX:** 17.92 (down from 17.99, calm — no defensive trigger)
+**Key indices:** SPY -0.15% yesterday; Nasdaq/S&P set new all-time records May 13 despite CPI scare
 **Style used today:** Defensive/Hold
 
 **Key observations:**
-- Trump rejected Iran's latest peace proposal; Brent oil surged to $104-111/barrel (+3.5%), Strait of Hormuz closure ongoing since Feb 28 — structural tailwind for energy (OXY, XOM, CVX, EOG), headwind for airlines and inflation
-- RKLB thesis strongly reinforced: Needham and TD Cowen both raised PTs to $120 (from $90), current price ~$106.20; entry at $99.03 shows +7.24% unrealized P&L (+$839); stock was up 34% on Friday May 8
-- CPI release Tuesday May 12 at 8:30 AM ET — consensus headline +0.6% MoM / +3.7% YoY; core +0.3% MoM / +2.7% YoY — single biggest risk event of the week; hot print could hurt equities broadly
-- Ed Yardeni raised S&P 500 target to 8,250, warns of potential "meltup" — bullish long-term but underscores that positioning may be crowded
-- UAE left OPEC May 1, 2026 — structural shift in oil market; US upstream (XOM, CVX, OXY, EOG) positioned as direct beneficiaries; refiners and airlines face margin pressure
-- Intel (INTC) +5.7% on reports of preliminary agreement to manufacture chips for Apple devices — potential semiconductor momentum play; Moderna +7.5% on hantavirus vaccine development
+- PPI April 2026: +1.4% MoM (expected +0.4%), core PPI +1.0% (expected +0.3%) — massive inflation surprise; 10-year Treasury at 4.48% (2026 high), touching highest levels of the year
+- CPI April 2026: +3.8% YoY (highest since May 2023, up from 3.3% in March), +0.6% MoM; energy +17.9% YoY (Iran war), shelter +0.6% MoM; real wages -0.3% YoY
+- Kevin Warsh confirmed as new Federal Reserve Chair — known as an inflation hawk; higher-for-longer rate environment likely; this is negative for rate-sensitive growth stocks
+- Strait of Hormuz: still disrupted despite April 7 nominal ceasefire; US-Iran clashes flared May 5-8; Brent crude ~$105-107; Saudi Aramco CEO warns of 100M bbl/week supply loss — supports OXY thesis
+- Trump visiting China with $16T CEO delegation (AAPL, NVDA, GS, META, QCOM, etc.) — potential US-China trade deal in progress; semiconductor and tech names (NVDA, TSM, QCOM) could benefit
+- AMAT reported Q2 2026 earnings after close today (expected revenue +8.4% YoY, EPS +11.3%); reaction tomorrow morning is important for semiconductor sector read-through
+- DDOG: Truist raised PT to $709; near consensus mean PT; hold; GS outlier SELL at $139 noted as risk
+- NVDA earnings May 20 — biggest upcoming market catalyst; 48 analyst buys, zero sells
 
 **Watching next session:**
-- CPI Tuesday: if in-line or below consensus, consider OXY entry (~$53); if hot, remain fully defensive
-- RKLB: trailing stop ~5% below current price (~$100.89 at $106.20). Watch for move toward $120 PT; any Neutron rocket development/launch news could re-rate higher. No adds while above 10% cap
-- OXY: potential first entry at ~$53 after CPI clarity; Q1 earnings strong, Berkshire Hathaway backing, oil structurally supported by Hormuz closure; 52-week high $67.45 (28% upside from current)
-- DDOG: watching for pullback to $185-190 zone; KeyBanc and Canaccord PTs at $225; was $194 on May 8
-- INTC: watch for post-gap consolidation after Apple chip deal; entry on pullback if semiconductor sector momentum continues
+- WMT: Q1 FY2027 earnings likely May 15 (tomorrow); Strong Buy consensus (32/39 analysts); e-commerce +27% YoY, Walmart Connect +41%; cutting jobs for AI-driven efficiency. Buy on post-earnings reaction if in-line or beat. Initial position target ~38 shares (~$5,000 at ~$131).
+- AMAT: Watch pre-market reaction to Q2 2026 results; semiconductor equipment cycle beneficiary; SOX index up 64% since end of March.
+- NVDA: Do not buy before May 20 earnings; watch for post-earnings dip as entry; 48 analyst buys, no sells; AI chip dominance.
+- COST: Consumer staples alternative to WMT; no near-term earnings catalyst; membership model resilient (90%+ renewal, digital +22.6%); inflation hedge.
+- OXY: Monitor Hormuz situation; any escalation supports oil prices; watch for CEO transition June 1 (Hollub retiring, Jackson taking over).

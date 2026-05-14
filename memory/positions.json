@@ -1,11 +1,38 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-12",
+    "thesis": "First $1B quarterly revenue (+32% YoY) in Q1 2026; EPS beat $0.60 vs $0.51 expected (18% surprise); raised full-year guidance. AI and cloud monitoring infrastructure is mission-critical and expanding. Multiple analysts raised PTs to $215-225 post-earnings (Guggenheim, Evercore, Wedbush, Barclays). Strong Buy consensus, avg PT ~$205. GS outlier SELL at $139.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "unknown-prior-session-may12"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-12",
+    "thesis": "Rezdiffra is the only approved MASH/NASH treatment; $1.1B+ TTM net sales, Q1 2026 revenue +127% YoY to $311M; 42,250+ patients on drug with April 2026 being strongest new-Rx month since launch. Strong Buy consensus, avg PT $671-709 (Truist raised to $709 on May 13) implying 33-40% upside. Blockbuster trajectory with large underserved patient population.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-prior-session-may12"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-12",
+    "thesis": "Strait of Hormuz still disrupted despite April 7 ceasefire (violence flaring May 5-8, Brent crude ~$105-107); Berkshire Hathaway backing; $9.7B OxyChem sale used for debt reduction to $15B target; Q1 EPS beat at $1.06; production 1.43M BOE/day; mean analyst PT $64 (14% upside). Energy structural tailwind while Hormuz remains restricted.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-prior-session-may12"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-12",
+    "thesis": "Global payment network dominance (4.9B credentials); Q2 FY2026 EPS +20% YoY ($3.31 vs $3.10 expected), revenue +17% YoY ($11.23B vs $10.75B expected); $20B buyback approved, quarterly dividend raised to $0.67; Agentic Commerce expansion (AI-initiated payments). Wide-moat business resilient across economic cycles.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-prior-session-may12"
   }
 ]
