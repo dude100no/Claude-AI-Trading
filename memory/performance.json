@@ -1,7 +1,18 @@
 {
-  "total_realized_pl": 0.0,
-  "total_trades": 0,
-  "winning_trades": 0,
+  "total_realized_pl": 1869.0,
+  "total_trades": 1,
+  "winning_trades": 1,
   "losing_trades": 0,
-  "trade_history": []
+  "trade_history": [
+    {
+      "symbol": "RKLB",
+      "qty": 117,
+      "entry_price": 99.026752,
+      "entry_date": "2026-05-08",
+      "exit_price": 115.0,
+      "exit_date": "2026-05-12",
+      "realized_pl": 1869.0,
+      "notes": "Exit price estimated at ~$115 (back-calculated from cash balance). RKLB hit all-time high $117.56 on May 12. Sold to diversify portfolio into DDOG, MDGL, OXY, V. Thesis remained valid — stock continued to $132.54 by May 14. Good timing on entry, sold slightly early but profit locked."
+    }
+  ]
 }

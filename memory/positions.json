@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-12",
+    "thesis": "AI-era cloud observability platform. Q1 2026 revenue crossed $1B for first time (32% YoY growth). Beat EPS by 17.65%. Secular tailwind from AI workload monitoring across multi-cloud enterprises. Analyst PTs range $180-$305. Goldman Sell (PT $139) is an outlier; most analysts bullish. Long-term: 6-12 months as AI infrastructure spend accelerates.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "unknown-session-may12"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-12",
+    "thesis": "Madrigal Pharmaceuticals — maker of Rezdiffra, the only FDA-approved therapy for MASH (metabolic-associated steatohepatitis, formerly NASH). First-mover advantage in a large unmet-need indication. Truist raised PT to $709 (May 13), Evercore Outperform PT $649. 40% upside to Truist PT. Risk: FDA safety signal or commercial uptake slower than expected.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-session-may12"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-12",
+    "thesis": "Occidental Petroleum — Berkshire Hathaway-backed energy major. Hormuz Strait closure (since Feb 28) creating structural floor for Brent crude ($104-111). UAE exit from OPEC adds further supply uncertainty. OXY leveraged to higher oil prices with Permian Basin assets and chemical segment. 52-week high $67.45 implies 20%+ upside from entry. Risk: Hormuz reopens or global demand collapses.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-session-may12"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-12",
+    "thesis": "Visa — global payments network with structural moat. US-China summit (Trump in Beijing with CEOs) positive for cross-border trade volumes. Truist raised PT to $371 (May 12), implying 15% upside. Kevin Warsh replacing Powell signals potentially more accommodative Fed stance. Global GDP growth drives payment volumes. Risk: recession causes consumer spending pullback.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-session-may12"
+  },
+  {
+    "symbol": "WMT",
+    "qty": 38,
+    "entry_price": 132.49,
+    "entry_date": "2026-05-15",
+    "thesis": "Walmart — dominant global consumer staples retailer at $1T market cap. Advertising business grew 46% in FY2026, transforming WMT into a retail media platform (like Amazon). Consumer confidence at multi-year low benefits value retailers as shoppers trade down. Morgan Stanley maintains Overweight ahead of Q1 2026 earnings. US-China summit positive for supply chain. Stop-loss order failed to place pre-market — must be added manually post-fill. Risk: tariff pass-through limits margin, Amazon competition intensifies.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pending-fill-may15"
   }
 ]
