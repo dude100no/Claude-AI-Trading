@@ -15,11 +15,11 @@
 - Consumer confidence at multi-year low — benefits value retailers (WMT) as consumers trade down; also adds caution to discretionary names
 
 **Portfolio — 5 positions, fully diversified:**
-- DDOG (Tech): 25 x $200.98 entry, current ~$203.52. AI observability platform. Unrealized +3%.
-- MDGL (Healthcare): 9 x $504.35 entry, current ~$505-524. MASH drug leader. Truist PT $709. Unrealized flat/+.
-- OXY (Energy): 85 x $55.93 entry, current ~$56.18-56.59. Berkshire-backed. Hormuz structural support. Unrealized +1%.
-- V (Financials): 15 x $322.92 entry, current ~$320.73. Truist PT $371. US-China trade positive. Unrealized -0.7%.
-- WMT (Consumer Staples): 38 x ~$132.49 entry (order pending fill at market open). Consumer value leader. Advertising +46%.
+- DDOG (Tech): 25 × $200.98 entry, current ~$203.52. AI observability platform. Unrealized +3%.
+- MDGL (Healthcare): 9 × $504.35 entry, current ~$505-524. MASH drug leader. Truist PT $709. Unrealized flat/+.
+- OXY (Energy): 85 × $55.93 entry, current ~$56.18-56.59. Berkshire-backed. Hormuz structural support. Unrealized +1%.
+- V (Financials): 15 × $322.92 entry, current ~$320.73. Truist PT $371. US-China trade positive. Unrealized -0.7%.
+- WMT (Consumer Staples): 38 × ~$132.49 entry (order pending fill at market open). Consumer value leader. Advertising +46%.
 
 **Watching next session:**
 - WMT stop-loss: must verify trailing stop was added post-fill at market open; if not, manually add via alpaca_client.py; position is unprotected until stop is in place
