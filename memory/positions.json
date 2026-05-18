@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-12",
+    "thesis": "AI observability platform with massive enterprise adoption. Q1 2026 revenue $1.006B (+32% YoY), EPS $0.60 beat. FedRAMP High certification opens federal market. GPU Monitoring GA for AI workloads. ARR exceeded $4B. Analyst PTs: Guggenheim $175 (Buy upgrade), Citi $175 (90-day upside catalyst watch). AI infrastructure tailwind — enterprises need observability as they scale AI workloads. Hold for 3-6 months.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "unlogged-session-may12-17"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-12",
+    "thesis": "Rezdiffra is the first-and-only FDA-approved treatment for MASH (metabolic-associated steatohepatitis), giving it a virtual monopoly in a disease with no prior standard of care. Q1 2026 net sales $311M (+127% YoY), blockbuster status ($1.1B trailing 12M). 42,250+ active patients. Clear Street PT $680 (from $533). Average analyst PT $671 = ~33% upside from current $505. Company investing in broad pipeline. Thesis: MASH market is large and underpenetrated; Rezdiffra has first-mover advantage. Hold 6-12 months.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unlogged-session-may12-17"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-13",
+    "thesis": "Structural oil price tailwind from Iran war / Strait of Hormuz closure ongoing since Feb 28. Brent crude surged ~80% to $109-110/barrel, well above $60-70 industry forecasts. OXY Q1 EPS $1.06 vs $0.60-0.64 consensus — massive beat. Full-year guidance 1,410-1,460 Mboed. CEO Vicki Hollub retiring June 1 (managed transition, stays on board). Berkshire Hathaway continues to back company. Raymond James PT $75 (Outperform). UAE left OPEC May 1 — structural shift benefiting US upstream. Hold 3-9 months.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unlogged-session-may12-17"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-12",
+    "thesis": "Visa is the global payments duopoly with a near-indestructible network moat. Fiscal Q2 2026 results strong: EPS $3.31 vs $3.10 expected (+20% YoY), revenue $11.2B vs $10.75B. Transactions +9% YoY, cross-border volume +12% YoY, Visa Direct +23% YoY. Truist raised PT to $371 (from $361). ValueAct Capital increased stake to 2.316M shares (institutional endorsement). Risk: Berkshire sold V position (monitor); rising bond yields may pressure valuation. Hold 6-12 months.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unlogged-session-may12-17"
+  },
+  {
+    "symbol": "WMT",
+    "qty": 38,
+    "entry_price": 132.34,
+    "entry_date": "2026-05-13",
+    "thesis": "Walmart is a defensive consumer staple that benefits from the consumer squeeze environment (high gas prices, inflation). Near-20% YTD rally, approaching $1T market cap. AI tools, delivery investments, digital ecosystem expanding. Q1 earnings scheduled May 21 — analysts project strong results. Bank of America, Piper Sandler, Telsey avg PT $140 (Strong Buy). Consumer squeeze drives trade-down behavior to Walmart. Risk: double-top technical pattern forming; valuation stretched; tariff impact on goods. Hold through May 21 earnings, reassess.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unlogged-session-may12-17"
   }
 ]

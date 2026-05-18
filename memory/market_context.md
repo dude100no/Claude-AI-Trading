@@ -1,21 +1,28 @@
-# Market Context — 2026-05-11
+# Market Context — 2026-05-18
 
-**Sentiment:** Mixed
-**VIX:** 17.19
-**Key indices:** SPY $736.73, QQQ $711.23 (futures -0.1%)
+**Sentiment:** Mixed (leaning cautious)
+**VIX:** 18.43 (up from 17.19 last session — slightly elevated, not alarming)
+**Key indices:** SPY futures -0.93%, QQQ -1.39% pre-market (negative open expected; tech leading lower)
 **Style used today:** Defensive/Hold
 
 **Key observations:**
-- Trump rejected Iran's latest peace proposal; Brent oil surged to $104-111/barrel (+3.5%), Strait of Hormuz closure ongoing since Feb 28 — structural tailwind for energy (OXY, XOM, CVX, EOG), headwind for airlines and inflation
-- RKLB thesis strongly reinforced: Needham and TD Cowen both raised PTs to $120 (from $90), current price ~$106.20; entry at $99.03 shows +7.24% unrealized P&L (+$839); stock was up 34% on Friday May 8
-- CPI release Tuesday May 12 at 8:30 AM ET — consensus headline +0.6% MoM / +3.7% YoY; core +0.3% MoM / +2.7% YoY — single biggest risk event of the week; hot print could hurt equities broadly
-- Ed Yardeni raised S&P 500 target to 8,250, warns of potential "meltup" — bullish long-term but underscores that positioning may be crowded
-- UAE left OPEC May 1, 2026 — structural shift in oil market; US upstream (XOM, CVX, OXY, EOG) positioned as direct beneficiaries; refiners and airlines face margin pressure
-- Intel (INTC) +5.7% on reports of preliminary agreement to manufacture chips for Apple devices — potential semiconductor momentum play; Moderna +7.5% on hantavirus vaccine development
+- Bond yields surging globally: TLT ETF experiencing heavy outflows, G7 Finance Ministers meeting in Paris Monday-Tuesday to address rising long-term borrowing costs — this is a valuation headwind for growth stocks and financials
+- Iran war intensifying: Trump warned Iran of consequences, oil above $109/barrel (Brent). Structural tailwind for OXY/energy; headwind for airlines, consumer discretionary, and inflation expectations
+- US-China tension easing: Trump-Xi agricultural deal ($17B annual), NVIDIA getting H200 chip approvals — tech/AI names could benefit if this trend continues (DDOG mentioned as AI beneficiary)
+- Berkshire Hathaway sold Visa (V) position in recent 13F — notable institutional signal; partially offset by ValueAct Capital increasing V stake to 2.316M shares
+- Walmart (WMT) earnings Thursday May 21: options pricing ~2% move; double-top technical pattern forming at resistance — risk of post-earnings selloff if guidance disappoints
+- S&P 500 Q1 2026 earnings season near-complete: 89% reported, revenue +10.4% YoY, earnings +25.3% YoY — fundamentals remain strong
+
+**Portfolio state:**
+- 5 positions (at max): DDOG, MDGL, OXY, V, WMT — all sectors covered
+- Unrealized P&L: +$378 total (+DDOG -$35, +MDGL +$6, +OXY +$356, +V +$12, +WMT +$38)
+- Cash: $77,696 (76% of portfolio — significant dry powder)
+- RKLB closed during May 12-17 (stop-loss triggered, est. realized +$218)
 
 **Watching next session:**
-- CPI Tuesday: if in-line or below consensus, consider OXY entry (~$53); if hot, remain fully defensive
-- RKLB: trailing stop ~5% below current price (~$100.89 at $106.20). Watch for move toward $120 PT; any Neutron rocket development/launch news could re-rate higher. No adds while above 10% cap
-- OXY: potential first entry at ~$53 after CPI clarity; Q1 earnings strong, Berkshire Hathaway backing, oil structurally supported by Hormuz closure; 52-week high $67.45 (28% upside from current)
-- DDOG: watching for pullback to $185-190 zone; KeyBanc and Canaccord PTs at $225; was $194 on May 8
-- INTC: watch for post-gap consolidation after Apple chip deal; entry on pullback if semiconductor sector momentum continues
+- WMT earnings May 21: if results miss or guidance weak, consider exiting (thesis was consumer squeeze trade-down — if Walmart signals consumers are cutting back further, reassess)
+- V (Visa): watch institutional flows; Berkshire exit is a yellow flag; if bond yields continue to surge, financials face valuation pressure
+- OXY: Iran situation is the key driver; any de-escalation could sharply reverse oil prices — watch Hormuz and Trump-Iran diplomacy
+- DDOG: AI infrastructure demand is secular tailwind; watch for bounce as NVIDIA China deal sparks tech rally; entry at $201 looks good if stock holds $190 support
+- MDGL: no near-term catalyst; Rezdiffra continues to ramp; hold without adding
+- Potential new candidate (for when a position frees up): LULU (extreme oversold territory, analysts maintaining bullish forecasts) — watch for technical stabilization before entry
