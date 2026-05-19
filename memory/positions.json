@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-12",
+    "thesis": "Q1 2026 beat: 32% YoY revenue growth, >$1B quarterly revenue for first time. FedRAMP High certification opens government/federal market. AI-driven observability platform with strong customer expansion (4,550 new $100k+ ARR customers, 21% growth). AI agentic deployment acceleration expected to drive usage-based growth. Partnership with Sakana AI. Long-term thesis: mission-critical monitoring for cloud-native enterprises with expanding AI infrastructure.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "reconciled-prior-session"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-12",
+    "thesis": "First-in-disease treatment for MASLD/NASH (liver disease) with Rezdiffra achieving blockbuster status ($1.1B trailing 12-month sales, 127% YoY growth in Q1 2026). 13 analysts average PT $671.58 (+33% upside from ~$505). April 2026 was strongest month for new prescriptions since launch. Profitability inevitable post-2026. F4C cirrhosis outcomes trial readout in 2027 is a potential market-doubling catalyst by expanding label to well-compensated cirrhosis.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-prior-session"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-12",
+    "thesis": "Q1 2026 EPS $1.06 beat vs $0.60-0.64 consensus. Iran war driving Brent oil to $102-107/barrel — structural tailwind for US upstream producers. Berkshire Hathaway backing (top 10 holding retained by Greg Abel). Debt reduction progressing ($7.1B repaid toward $10B target). Raymond James PT $75 Outperform (+26% upside from $59.65). YTD up 37%. CEO Vicki Hollub retiring June 1; COO Richard Jackson taking over — orderly transition.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-prior-session"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-12",
+    "thesis": "Q2 2026 EPS $3.33 (+38% YoY), revenue $11.2B (+17% YoY), both beating estimates. Payment network duopoly (Visa + Mastercard) with durable competitive advantage — not exposed to credit risk unlike banks. Analyst average PT $390.67 (+17% upside from $332.50); strong buy consensus (21 buy, 2 hold, 0 sell). Truist raised PT to $371 on May 12. Benefits from global consumer spending and digital payments growth. Hold for 6-12 months.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-prior-session"
+  },
+  {
+    "symbol": "WMT",
+    "qty": 38,
+    "entry_price": 132.34,
+    "entry_date": "2026-05-12",
+    "thesis": "Defensive consumer staples leader benefiting from tariff-driven trade-down as consumers seek value. Consistent market share gains across grocery and general merchandise. Q1 FY2027 earnings due May 21 — watch closely. Portfolio diversification anchor during uncertain macro environment (Moody's downgrade, rate hike concerns). Strong supply chain and private label expansion. Defensive buffer for portfolio in risk-off periods.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-prior-session"
   }
 ]

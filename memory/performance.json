@@ -1,7 +1,18 @@
 {
-  "total_realized_pl": 0.0,
-  "total_trades": 0,
-  "winning_trades": 0,
+  "total_realized_pl": 3097.37,
+  "total_trades": 1,
+  "winning_trades": 1,
   "losing_trades": 0,
-  "trade_history": []
+  "trade_history": [
+    {
+      "symbol": "RKLB",
+      "entry_price": 99.026752,
+      "exit_price": 125.50,
+      "qty": 117,
+      "entry_date": "2026-05-08",
+      "exit_date": "2026-05-15",
+      "realized_pl": 3097.37,
+      "exit_reason": "Trailing stop triggered (5% trailing from ~$132.55 all-time high on May 14). Estimated exit near $125.50. Stock had run from $99.03 entry to $132.55 peak (+34%) before stop triggered."
+    }
+  ]
 }
