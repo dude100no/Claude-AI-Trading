@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-13",
+    "thesis": "Q1 2026 earnings beat: 32% YoY revenue growth, first $1B+ quarterly revenue. FedRAMP High certification opens federal market. AI-native customer demand accelerating — included in 'forgotten AI trade' rebound alongside NOW and CRM. Oppenheimer PT $200, Guggenheim $175. Software ETFs (IGV/WCLD) outpacing QQQ.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "pre-memory-sync"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-13",
+    "thesis": "Rezdiffra blockbuster (>$1.1B trailing 12M net sales, first-in-disease MASH therapy). Q1 2026: $311M net sales, +127% YoY. 42,250+ patients on drug, growing 2.5x YoY. April 2026 strongest month for new prescriptions. Avg analyst PT $671 = +33% upside. Strong Buy consensus from 13 analysts. R&D pipeline expanding with siRNA combination regimens.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pre-memory-sync"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-13",
+    "thesis": "Q1 EPS $1.06 vs $0.60 consensus — massive beat. Strait of Hormuz closed since Feb 28 = structural oil price tailwind (Brent $104-111). Berkshire Hathaway (Greg Abel) maintained OXY position in Q1 2026. $7.1B debt repaid. Raymond James PT $75. Up 30% YTD. Risk: Iran peace deal could pressure oil prices.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pre-memory-sync"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-13",
+    "thesis": "Q2 FY2026: +17% revenue, +20% adjusted EPS, cross-border volume +12%. $20B buyback authorized. Berkshire maintained position. Trump fintech EO positive for payment processors. Durable network-effect moat. Consumer spending resilient. Whale options activity signals institutional conviction.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pre-memory-sync"
+  },
+  {
+    "symbol": "WMT",
+    "qty": 38,
+    "entry_price": 132.34,
+    "entry_date": "2026-05-13",
+    "thesis": "Defensive retail leader in high-inflation, low-consumer-confidence environment. Consumer flight to value. Q1 earnings May 21: consensus +5.4% revenue, +7.9% EPS. Up 17% YTD. Analyst PTs $136-$140. AI/tech workforce restructuring targets margin improvement. Trades at premium but justified by defensive positioning.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pre-memory-sync"
   }
 ]

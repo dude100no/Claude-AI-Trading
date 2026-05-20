@@ -1,21 +1,24 @@
-# Market Context — 2026-05-11
+# Market Context — 2026-05-20
 
-**Sentiment:** Mixed
-**VIX:** 17.19
-**Key indices:** SPY $736.73, QQQ $711.23 (futures -0.1%)
+**Sentiment:** Mixed/Cautious
+**VIX:** 18.06 (+1.35%)
+**Key indices:** S&P 500 ~7352 (-0.69% May 19), Nasdaq -0.84%, QQQ $705.88, Dow -0.65% — 3 consecutive days of losses
 **Style used today:** Defensive/Hold
 
 **Key observations:**
-- Trump rejected Iran's latest peace proposal; Brent oil surged to $104-111/barrel (+3.5%), Strait of Hormuz closure ongoing since Feb 28 — structural tailwind for energy (OXY, XOM, CVX, EOG), headwind for airlines and inflation
-- RKLB thesis strongly reinforced: Needham and TD Cowen both raised PTs to $120 (from $90), current price ~$106.20; entry at $99.03 shows +7.24% unrealized P&L (+$839); stock was up 34% on Friday May 8
-- CPI release Tuesday May 12 at 8:30 AM ET — consensus headline +0.6% MoM / +3.7% YoY; core +0.3% MoM / +2.7% YoY — single biggest risk event of the week; hot print could hurt equities broadly
-- Ed Yardeni raised S&P 500 target to 8,250, warns of potential "meltup" — bullish long-term but underscores that positioning may be crowded
-- UAE left OPEC May 1, 2026 — structural shift in oil market; US upstream (XOM, CVX, OXY, EOG) positioned as direct beneficiaries; refiners and airlines face margin pressure
-- Intel (INTC) +5.7% on reports of preliminary agreement to manufacture chips for Apple devices — potential semiconductor momentum play; Moderna +7.5% on hantavirus vaccine development
+- 30-year Treasury yield hit 5.19%, highest since 2007 — rising yields are the primary macro headwind; equity risk premium compressed; bond rout driven by persistent inflation fears (Iran war energy shock) and fiscal deficit concerns
+- Iran War ongoing; Strait of Hormuz closed since Feb 28 (elevated oil/energy prices); Trump says "serious negotiations" underway toward peace deal; US Senate signals intensifying opposition to war — if deal materializes, oil could fall sharply (OXY risk)
+- Nvidia (NVDA) reports Q1 FY27 earnings after close today — consensus $1.76 EPS, $78.4B revenue (+79% YoY); NVDA has beaten every quarter this cycle; reaction sets tone for entire tech sector (DDOG exposure)
+- WMT earnings tomorrow May 21 — consensus +5.4% revenue, +7.9% EPS; consumer confidence at 1952-era lows (48.2 UMich) — flight to value benefits Walmart
+- Software ETF AI trade (DDOG, NOW, CRM, SNOW) outpacing QQQ per Benzinga — "forgotten AI trade" rebound
+- Berkshire Hathaway (Greg Abel) maintained OXY and V holdings through Q1 2026 — institutional validation
+- Fintech EO signed by Trump streamlining regulations — tailwind for payment processors (V)
+- Portfolio total unrealized P&L: +$814.31 across 5 positions
 
 **Watching next session:**
-- CPI Tuesday: if in-line or below consensus, consider OXY entry (~$53); if hot, remain fully defensive
-- RKLB: trailing stop ~5% below current price (~$100.89 at $106.20). Watch for move toward $120 PT; any Neutron rocket development/launch news could re-rate higher. No adds while above 10% cap
-- OXY: potential first entry at ~$53 after CPI clarity; Q1 earnings strong, Berkshire Hathaway backing, oil structurally supported by Hormuz closure; 52-week high $67.45 (28% upside from current)
-- DDOG: watching for pullback to $185-190 zone; KeyBanc and Canaccord PTs at $225; was $194 on May 8
-- INTC: watch for post-gap consolidation after Apple chip deal; entry on pullback if semiconductor sector momentum continues
+- WMT earnings reaction (May 21): beat expected; if miss, evaluate thesis; if beat, hold for $136-140 PT
+- NVDA ripple effect on DDOG: strong beat = AI rally, bullish for software; miss = tech sell-off risk
+- Iran peace negotiations: ceasefire/deal = oil pressure (OXY risk), but also inflation relief = bond yield drop = equity rally (net positive for market)
+- OXY CEO transition: Vicki Hollub retires June 1, Richard Jackson (COO) steps in; operational continuity expected but monitor
+- MDGL: Rezdiffra next prescription data — holding for analyst PT $671 (+33% upside); no catalyst until Q2 report (August)
+- V: monitor consumer spending data and any regulatory overhang from class share exchange (completed May 8)
