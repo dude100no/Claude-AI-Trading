@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-13",
+    "thesis": "Q1 2026 revenue exceeded $1B for first time (+32% YoY), AI-native customer expansion driving ARR growth, software ETFs outperforming QQQ as AI software trade strengthens. Goldman Sachs Sell rating (PT $139) is an outlier; consensus is Buy. Long-term AI infrastructure monitoring play with durable competitive advantage in observability.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": null
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-13",
+    "thesis": "Rezdiffra (resmetirom) is the first FDA-approved NASH therapy. Q1 2026 net sales $311M (+127% YoY) with 42,250+ active patients. Strong durable moat as first mover. Average analyst PT $671 (Strong Buy consensus with 13 analysts). Early-stage patient penetration vs total addressable market. Path to profitability as drug scales.",
+    "stop_loss_pct": 0.05,
+    "order_id": null
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-13",
+    "thesis": "Berkshire Hathaway (Greg Abel) maintains core OXY position. Oil structurally elevated due to Iran/Strait of Hormuz closure and UAE OPEC exit. Q1 EPS $1.06 beat; production at 1.43M BOE/day above guidance; free cash flow +52% YoY; debt reduction ongoing. Average analyst PT $64.33. Truist Hold with PT $57 (below current) is risk to monitor.",
+    "stop_loss_pct": 0.05,
+    "order_id": null
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-13",
+    "thesis": "Visa dominates global payment rails with a durable duopoly moat. FY Q2 2026 revenue +17% YoY (fastest since 2022), adjusted EPS $3.31 beat. Payment volumes +9%, 66.1B transactions processed, value-added services 30% of revenue. Berkshire holds. ValueAct increased stake May 2026. Average analyst PT $387-399 (Strong Buy, 38 analysts). Quarterly dividend $0.67/share.",
+    "stop_loss_pct": 0.05,
+    "order_id": null
+  },
+  {
+    "symbol": "WMT",
+    "qty": 38,
+    "entry_price": 132.34,
+    "entry_date": "2026-05-13",
+    "thesis": "Consumer staples defensive play and digital transformation story. Q1 FY2026: EPS $0.61 beat (vs $0.58 est, +5.7%), eCommerce +22%, advertising +50%, membership income +14.8%. Gas prices driving value-seeking consumers to Walmart. 28/30 analysts Buy, PT avg $140.35. Revenue miss ($163.98B vs $164.43B) minor; digital metrics are the long-term thesis driver.",
+    "stop_loss_pct": 0.05,
+    "order_id": null
   }
 ]
