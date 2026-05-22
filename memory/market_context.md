@@ -21,8 +21,8 @@
 - V: $329.59 (+2.07%) — Strong Buy consensus, hold
 - WMT: $122.13 (-7.72%) — thesis intact, trailing stop may not have triggered in paper trading, hold
 
-**Watching next session (Tuesday May 27 — Monday May 25 is Memorial Day):**
-- WMT: Watch for stabilisation above $120. If stock breaks below $115 on additional bad news, reconsider thesis. Otherwise hold — Evercore PT $140 represents 14.6% upside from current.
+**Watching next session (Tuesday May 26 — Monday May 25 is Memorial Day):**
+- WMT: Watch for stabilization above $120. If stock breaks below $115 on additional bad news, reconsider thesis. Otherwise hold — Evercore PT $140 represents 14.6% upside from current.
 - MDGL: Watch for EASL 2026 Congress data release — could be positive catalyst. Any news on Rezdiffra label expansion or competitor approvals.
 - OXY: Monitor Iran-US talks. If ceasefire/deal announced, oil could drop sharply — reassess OXY. Currently oil $100+ is structural support; watch $90 as key level.
 - DDOG: AI infrastructure spending confirmed by NVDA. DDOG at ATH — if broad tech selloff materializes (rising yields), could pull back to $195-200 support. Position is healthy; don't exit on dips.
