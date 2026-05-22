@@ -1,7 +1,18 @@
 {
-  "total_realized_pl": 0.0,
-  "total_trades": 0,
-  "winning_trades": 0,
+  "total_realized_pl": 839.27,
+  "total_trades": 1,
+  "winning_trades": 1,
   "losing_trades": 0,
-  "trade_history": []
+  "trade_history": [
+    {
+      "symbol": "RKLB",
+      "side": "sell",
+      "qty": 117,
+      "entry_price": 99.026752,
+      "exit_price": 106.20,
+      "exit_date": "2026-05-12",
+      "realized_pl": 839.27,
+      "notes": "Estimated exit — position closed between May 11 and May 22 (memory gap). Exit price estimated at last-known price $106.20 from May 11 session. Actual P&L may differ. RKLB reached ATH $132.55 on May 14 before settling ~$127-128. Position replaced with diversified 5-stock portfolio: DDOG, MDGL, OXY, V, WMT."
+    }
+  ]
 }

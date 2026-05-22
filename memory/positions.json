@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-13",
+    "thesis": "Cloud observability and security leader with strong AI workload monitoring tailwinds. Revenue growing 25%+ YoY with expanding enterprise customer base. All-time high reached $211.28 on May 15, 2026. KeyBanc and Canaccord analyst PTs at $225. AI infrastructure build-out drives more monitoring and security spend. Long-term hold: weeks to months.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "unknown-session-gap"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-13",
+    "thesis": "Madrigal Pharmaceuticals — sole approved treatment for MASH (metabolic liver disease), a condition affecting 115M Americans. Rezdiffra Q4 2025 net sales $321M (+211% YoY). Truist raised PT to $709 from $640 on May 13, 2026. Presenting new MASH data at EASL 2026 Congress. 52-week range $265-$615 with significant long-term runway. First-in-class monopoly in large unmet-need market.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-session-gap"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-13",
+    "thesis": "Occidental Petroleum — Berkshire Hathaway-backed energy major. Strait of Hormuz closure since Feb 28 2026 creates structural oil price floor. Brent oil above $100/barrel as of May 2026. OXY up 45% YTD 2026. Average analyst PT $64.63 (current ~$58.90, ~10% upside). UAE left OPEC May 1 — structural shift supports US upstream. Q1 2026 earnings strong with significant debt reduction.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-session-gap"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-13",
+    "thesis": "Visa — dominant global payment network with near-impenetrable network effects. Secular shift from cash to digital payments globally (esp. emerging markets). 54 analysts: consensus Strong Buy, median PT $400.60 (current $329.59, ~22% upside). Truist raised PT to $371 on May 12, 2026. Low capital intensity, high operating margins, pricing power. Durable competitive moat.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-session-gap"
+  },
+  {
+    "symbol": "WMT",
+    "qty": 38,
+    "entry_price": 132.34,
+    "entry_date": "2026-05-13",
+    "thesis": "Walmart — dominant US omnichannel retailer with growing Walmart+ subscription, advertising, and international segments. FY2026 revenue $713B (+4.7% YoY). Q1 FY2026 beat revenue estimates; stock dropped 7% on May 21 on fuel cost forward guidance warning (short-term headwind from high oil prices). Evercore ISI raised PT to $140 from $135 post-earnings. Consensus Strong Buy. Defensive consumer staples diversification play. Note: trailing stop may not have triggered in paper trading despite -7.72% drawdown; monitoring closely.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-session-gap"
   }
 ]
