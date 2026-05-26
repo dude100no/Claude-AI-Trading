@@ -1,21 +1,27 @@
-# Market Context — 2026-05-11
+# Market Context — 2026-05-26
 
-**Sentiment:** Mixed
-**VIX:** 17.19
-**Key indices:** SPY $736.73, QQQ $711.23 (futures -0.1%)
-**Style used today:** Defensive/Hold
+**Sentiment:** Bullish
+**VIX:** 16.68
+**Key indices:** DOW 50,579 (all-time high), S&P 500 7,473, Nasdaq 26,344; QQQ ~$719
+**Style used today:** Long-term growth entry (WMT exit, NVDA entry)
 
 **Key observations:**
-- Trump rejected Iran's latest peace proposal; Brent oil surged to $104-111/barrel (+3.5%), Strait of Hormuz closure ongoing since Feb 28 — structural tailwind for energy (OXY, XOM, CVX, EOG), headwind for airlines and inflation
-- RKLB thesis strongly reinforced: Needham and TD Cowen both raised PTs to $120 (from $90), current price ~$106.20; entry at $99.03 shows +7.24% unrealized P&L (+$839); stock was up 34% on Friday May 8
-- CPI release Tuesday May 12 at 8:30 AM ET — consensus headline +0.6% MoM / +3.7% YoY; core +0.3% MoM / +2.7% YoY — single biggest risk event of the week; hot print could hurt equities broadly
-- Ed Yardeni raised S&P 500 target to 8,250, warns of potential "meltup" — bullish long-term but underscores that positioning may be crowded
-- UAE left OPEC May 1, 2026 — structural shift in oil market; US upstream (XOM, CVX, OXY, EOG) positioned as direct beneficiaries; refiners and airlines face margin pressure
-- Intel (INTC) +5.7% on reports of preliminary agreement to manufacture chips for Apple devices — potential semiconductor momentum play; Moderna +7.5% on hantavirus vaccine development
+- First trading day after Memorial Day (May 25 holiday). Markets near all-time highs with broad bullish sentiment.
+- AI infrastructure demand described as "parabolic" by NVDA CEO Jensen Huang; Q1 FY2027 blowout beat; Q2 guidance $91B vs $86.84B est. $80B buyback. 61 analysts Strong Buy, avg PT $295. Entered 23 shares at ~$215.33.
+- Oil at $110/barrel (Brent), Strait of Hormuz closure ongoing — structural tailwind for OXY and energy sector. OXY Q1 EPS $1.06 massively beat $0.60-0.64 est. CEO Hollub retiring June 1, Richard Jackson takes over — watch post-transition execution.
+- WMT exited: -9.17% loss, 5% stop-loss triggered/exceeded. Senior executives departing under new CEO. UBS lowered PT to $141. Close order pending fill.
+- DDOG thesis reinforced: Q1 revenue $1.006B (+32% YoY), first $1B quarter, FedRAMP High certification, FY guidance raised.
+- MDGL: Rezdiffra blockbuster ($1.1B TTM), Q1 $311M (+127%), Truist PT $709. Long-term MASH treatment thesis intact.
+- Visa (V): Q2 FY2026 beat — revenue $11.2B (+17%), non-GAAP EPS $3.31 beat, $20B buyback. Payments volume growing.
+- RKLB: stopped out between sessions (exact exit unknown); last seen at $106.20 on May 11.
+- **CRITICAL ALERT**: NVDA trailing stop order FAILED — position has NO active stop-loss. Requires manual stop placement (~$204.56 = $215.33 × 0.95). Address at next session or as soon as NVDA order fills.
+- Kevin Warsh took oath as new Fed Chair; AI-driven easing thesis; yield curve implications uncertain.
+- Costco (COST) at $1,047, earnings May 28 — on watchlist but current entry creates earnings risk.
 
 **Watching next session:**
-- CPI Tuesday: if in-line or below consensus, consider OXY entry (~$53); if hot, remain fully defensive
-- RKLB: trailing stop ~5% below current price (~$100.89 at $106.20). Watch for move toward $120 PT; any Neutron rocket development/launch news could re-rate higher. No adds while above 10% cap
-- OXY: potential first entry at ~$53 after CPI clarity; Q1 earnings strong, Berkshire Hathaway backing, oil structurally supported by Hormuz closure; 52-week high $67.45 (28% upside from current)
-- DDOG: watching for pullback to $185-190 zone; KeyBanc and Canaccord PTs at $225; was $194 on May 8
-- INTC: watch for post-gap consolidation after Apple chip deal; entry on pullback if semiconductor sector momentum continues
+- NVDA: Confirm order fill and IMMEDIATELY place trailing stop at 5% below fill price. Watch for continued AI infrastructure momentum.
+- OXY: CEO transition June 1 — monitor executive commentary, Q2 guidance reiteration. Oil prices expected to moderate to $89/b by Q4.
+- MDGL: EASL Congress 2026 presentations (new Rezdiffra data). Watch for PT upgrades toward $709 Truist target.
+- DDOG: Watch for move toward $250+ analyst targets. AI observability as infrastructure spend continues.
+- Costco (COST): Earnings May 28 — if beat and stock dips, consider as consumer staples replacement. PT $1,077 (avg), Bernstein $1,192.
+- VIX: Staying low (~16-17). No defensive mode warranted. Continue accumulating quality positions.

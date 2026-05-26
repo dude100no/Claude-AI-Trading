@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-12",
+    "thesis": "AI observability leader. Q1 2026 revenue $1.006B (+32% YoY), first $1B quarter; EPS $0.60 beat; FedRAMP High certification; FY2026 guidance raised to $4.30-4.34B. 33 analysts Buy consensus. Cloud monitoring and AI observability secular tailwinds. Hold weeks-months.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "unknown-reconciled"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-12",
+    "thesis": "First-and-only FDA-approved MASH treatment (Rezdiffra). Q1 2026 net sales $311M (+127% YoY), blockbuster status with $1.1B trailing 12-month revenue, 42,250+ active patients. Pipeline expanding (ARO-PNPLA3 license). Truist PT $709 (May 13). Average analyst PT $671.58 (31.67% upside). Hold 3-12 months.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-reconciled"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-14",
+    "thesis": "Oil structurally supported by Strait of Hormuz closure ($110/barrel Brent). Berkshire Hathaway backing. Q1 EPS $1.06 vs $0.60 est (massive beat). Morgan Stanley PT $74, Raymond James PT $75 (Outperform). CEO transition June 1 (Hollub → Jackson) is a risk to monitor but Berkshire backing provides confidence. Hold 3-6 months.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-reconciled"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-14",
+    "thesis": "Payment network duopoly with secular cashless transition tailwind. Q2 FY2026: revenue $11.2B (+17%), non-GAAP EPS $3.31 beat, $20B buyback authorized. Full-year EPS guidance $13.09. Cross-border volume growth driven by travel recovery and e-commerce. Hold 6-12 months.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-reconciled"
+  },
+  {
+    "symbol": "NVDA",
+    "qty": 23,
+    "entry_price": 215.33,
+    "entry_date": "2026-05-26",
+    "thesis": "AI infrastructure demand 'parabolic' per CEO Jensen Huang. Q1 FY2027 EPS $1.87 beat ($1.76 est), Q2 guidance $91B well above $86.84B est. Data center revenue nearly doubled. Blackwell/Vera Rubin chip cycle dominates 2026-2027. $80B buyback. 61 analysts Strong Buy, avg PT $295 (37% upside from ~$215). $710B hyperscaler AI capex in 2026. CRITICAL: trailing stop order FAILED at placement — NO STOP-LOSS ACTIVE. Requires manual stop order placement.",
+    "stop_loss_pct": 0.05,
+    "order_id": "pending-no-stop"
   }
 ]

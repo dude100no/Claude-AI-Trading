@@ -1,7 +1,19 @@
 {
-  "total_realized_pl": 0.0,
-  "total_trades": 0,
+  "total_realized_pl": -460.94,
+  "total_trades": 1,
   "winning_trades": 0,
-  "losing_trades": 0,
-  "trade_history": []
+  "losing_trades": 1,
+  "trade_history": [
+    {
+      "symbol": "WMT",
+      "side": "sell",
+      "qty": 38,
+      "entry_price": 132.34,
+      "exit_price": 120.21,
+      "entry_date": "2026-05-14",
+      "exit_date": "2026-05-26",
+      "realized_pl": -460.94,
+      "notes": "Stop-loss exceeded (9.17% loss vs 5% target). Management instability: new CEO, senior exec departures. Analysts cut PTs. Close order placed May 26, pending fill at market open."
+    }
+  ]
 }
