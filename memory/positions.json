@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-12",
+    "thesis": "Q1 2026 revenue crossed $1B ($1.006B, +25% YoY) — first billion-dollar quarter. FedRAMP High certification opens federal government market. New AI products (Bits AI Security Analyst, GPU Monitoring, MCP Server). Strong AI observability demand as enterprises scale cloud infrastructure. Buy consensus, KeyBanc and Canaccord PTs at $225. Long-term: dominant observability platform with deep integrations and high switching costs.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "unknown-gap-session"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-12",
+    "thesis": "Rezdiffra (resmetirom) achieved blockbuster status with $1.1B+ trailing 12-month net sales — first and only approved treatment for MASH (metabolic dysfunction-associated steatohepatitis). Pipeline expansion via ARO-PNPLA3 license targeting Hispanic MASH patients (30% of F2-F3 population). Truist PT raised to $709. Large underserved patient population, durable competitive moat as first mover, strong commercial ramp still in early innings.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-gap-session"
+  },
+  {
+    "symbol": "NVDA",
+    "qty": 23,
+    "entry_price": 216.763479,
+    "entry_date": "2026-05-12",
+    "thesis": "Q1 2026 record revenue $81.6B (+85% YoY); data center $39.1B (+69% YoY). Dominates AI accelerator market with Blackwell architecture ramp. Expanding into inference workloads, robotics, and edge AI. Down ~10% post-earnings on sell-the-news after strong pre-earnings rally — temporary noise against exceptional fundamentals. Analyst avg PT $295 (36% upside). UBS Buy, PT $280. Strong Buy consensus across 62 analysts.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-gap-session"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-12",
+    "thesis": "Q1 2026 EPS $1.06 crushed $0.60-0.64 estimate. Brent oil structurally elevated due to Strait of Hormuz ongoing closure and UAE exit from OPEC. Debt reduction to $13.3B (targeting $10B). Berkshire Hathaway long-term backing. Barclays upgraded to Overweight (May 23); Raymond James PT $75. CEO Hollub retiring June 1, COO Richard Jackson stepping in — continuity expected. Q2 output guidance 1,390-1,430 Mboed. Production growth + cost discipline = earnings leverage to oil.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-gap-session"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-12",
+    "thesis": "Q2 FY2026 EPS +20% YoY, revenue +17%. Consumer spending resilient. Dominant global payment network with unmatched network effects and pricing power. Expanding into digital/crypto rails (stablecoin settlement pilot with USDC in Canada). Valuation attractive — P/S and P/E below 5-year averages despite strong earnings momentum. Long-term: secular shift from cash to digital payments globally, Visa takes a cut of every transaction.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown-gap-session"
   }
 ]
