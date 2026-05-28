@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 25,
+    "entry_price": 200.98,
+    "entry_date": "2026-05-13",
+    "thesis": "Q1 2026 earnings beat: $1.006B revenue (32% YoY growth), EPS $0.60 beat by 17.65%. First ever $1B quarter. AI observability platform leader — critical infrastructure for cloud monitoring at hyperscalers and enterprises. Raised FY2026 guidance to $4.30-4.34B. FedRAMP High certification opens US federal market. New products: MCP Server, Bits AI Security Analyst, GPU Monitoring. 44 analysts Strong Buy. Multiple AI and cloud migration tailwinds.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "recovered-memory-sync-0513"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-15",
+    "thesis": "Rezdiffra (resmetirom) is the first and only FDA-approved treatment for MASH (metabolic-associated steatohepatitis with liver fibrosis). Q1 2026 net sales $311M (+127% YoY), achieved blockbuster status with $1.1B TTM revenue, 42,250+ active patients — still early in penetration of a massive underserved market. ARO-PNPLA3 pipeline license expands MASH coverage to high-risk Hispanic populations. Truist raised PT to $709 (from $640) on May 13, 2026. No direct competition approved for this indication.",
+    "stop_loss_pct": 0.05,
+    "order_id": "recovered-memory-sync-0515"
+  },
+  {
+    "symbol": "NVDA",
+    "qty": 23,
+    "entry_price": 216.763478,
+    "entry_date": "2026-05-21",
+    "thesis": "Q1 FY2027 record revenue $81.6B (+85% YoY), EPS $1.87 beating consensus $1.76. Data center $39.1B (+69% YoY), representing 87% of total revenue. Q2 FY2027 guidance $91B (ahead of $87.2B consensus, +95% YoY). AI infrastructure backbone — Blackwell GPU platform dominates hyperscaler capital expenditure. $150B Taiwan investment reinforces supply security. Next frontiers: robotics, edge AI, autonomous vehicles. 62 analysts Strong Buy. Market cap $5.28T.",
+    "stop_loss_pct": 0.05,
+    "order_id": "recovered-memory-sync-0521"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-13",
+    "thesis": "Oil price structural support from Strait of Hormuz closure (ongoing since Feb 28, 2026). Q1 2026 EPS $1.06 vs $0.60-0.64 expected — massive beat; free cash flow $1.7B (+52% YoY). Debt reduction: $20.8B to $13.3B since Q3 2025. Berkshire Hathaway backing as floor. Analyst PTs: Barclays $72 (Overweight), Mizuho $75 (Outperform), Raymond James $75 (Outperform) — 26-31% upside from current. RISK: Iran-US peace deal could end Hormuz closure and reduce oil price tailwind. CEO Vicki Hollub retiring June 1, COO Richard Jackson taking over.",
+    "stop_loss_pct": 0.05,
+    "order_id": "recovered-memory-sync-0513"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-14",
+    "thesis": "Dominant global payment network with near-monopolistic moat (Visa + Mastercard handle ~80% of card transactions globally). Q2 FY2026: revenue $11.2B (+17% YoY), EPS $3.31 non-GAAP beat. Raised full-year FY2026 guidance. $20B buyback authorization reinforces shareholder return commitment. Expanding into stablecoin settlement (digital dollar rails) and agentic commerce programs — long-term structural growth. Low cyclicality, pricing power, asset-light. 38 analysts Strong Buy, avg PT $398.74 (+22% upside from current $326.98).",
+    "stop_loss_pct": 0.05,
+    "order_id": "recovered-memory-sync-0514"
   }
 ]
