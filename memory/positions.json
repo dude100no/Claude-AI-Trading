@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 43,
+    "entry_price": 213.439767,
+    "entry_date": "2026-05-12",
+    "thesis": "Cloud observability + AI platform leader. Q1 FY2026 revenue $1.006B (+32% YoY), Q2 guidance $1.07-1.08B, FY2026 guidance $4.30-4.34B. FedRAMP High certification opens government cloud TAM. DASH 2026 conference June 9-10 is near-term catalyst. JPMorgan PT $358 (43% upside from ~$250). RBC PT $250, BTIG PT $255. Stock up ~66% YTD in 2026, outperforming MSFT and ADBE.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "unknown"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-12",
+    "thesis": "First FDA-approved treatment for MASH (resmetirom/Rezdiffra). First-mover advantage in a large unmet need. Q1 earnings beat on drug sales. Truist PT $709 (raised from $640 on May 13), Barclays Buy. Long-term thesis: MASH market is large (~5M addressable US patients) and commercial launch is still early stage.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown"
+  },
+  {
+    "symbol": "NVDA",
+    "qty": 23,
+    "entry_price": 216.763478,
+    "entry_date": "2026-05-12",
+    "thesis": "AI semiconductor dominance. Q1 non-GAAP EPS $1.87, revenue $81.6B beat. FY2026 revenue $215.94B (+65% YoY). Networking revenue +199% to $14.9B. Consensus Strong Buy, mean PT $296 (39% upside). COMPUTEX 2026 upcoming (Vera CPUs, agentic AI). Ex-dividend June 4 ($0.25/share). Risk: US closed AI chip loophole for Chinese overseas firms — watch for China revenue impact in next quarter.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-12",
+    "thesis": "Structural oil demand from Strait of Hormuz closure + Berkshire Hathaway backing. CEO transition: Vicki Hollub retired June 1, replaced by COO Richard Jackson (insider since 2003 — continuity). Bandit prospect oil discovery in Gulf of America. Mizuho PT $75 (Outperform), UBS PT $67. Dividend $0.26/quarter declared. Risk: Iran nuclear deal resolution could reduce oil price premium.",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-12",
+    "thesis": "Durable payment network moat. Q2 FY2026 EPS $3.33 (vs $2.41 prior year), revenue $11.2B. $20B share repurchase program. Crypto card payment volumes doubled post-Stablecoin Act. AI partnership with Replit (agentic payments). Quarterly dividend $0.67/share payable June 1. Zacks #2 Buy, PT $386.70 (18% upside).",
+    "stop_loss_pct": 0.05,
+    "order_id": "unknown"
   }
 ]

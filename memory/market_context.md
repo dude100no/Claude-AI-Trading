@@ -1,21 +1,23 @@
-# Market Context — 2026-05-11
+# Market Context — 2026-06-01
 
-**Sentiment:** Mixed
-**VIX:** 17.19
-**Key indices:** SPY $736.73, QQQ $711.23 (futures -0.1%)
+**Sentiment:** Bullish
+**VIX:** 15.32
+**Key indices:** SPY at all-time highs, QQQ ~$737.66 (+8% since end of April), Nasdaq +8% MTD May
 **Style used today:** Defensive/Hold
 
 **Key observations:**
-- Trump rejected Iran's latest peace proposal; Brent oil surged to $104-111/barrel (+3.5%), Strait of Hormuz closure ongoing since Feb 28 — structural tailwind for energy (OXY, XOM, CVX, EOG), headwind for airlines and inflation
-- RKLB thesis strongly reinforced: Needham and TD Cowen both raised PTs to $120 (from $90), current price ~$106.20; entry at $99.03 shows +7.24% unrealized P&L (+$839); stock was up 34% on Friday May 8
-- CPI release Tuesday May 12 at 8:30 AM ET — consensus headline +0.6% MoM / +3.7% YoY; core +0.3% MoM / +2.7% YoY — single biggest risk event of the week; hot print could hurt equities broadly
-- Ed Yardeni raised S&P 500 target to 8,250, warns of potential "meltup" — bullish long-term but underscores that positioning may be crowded
-- UAE left OPEC May 1, 2026 — structural shift in oil market; US upstream (XOM, CVX, OXY, EOG) positioned as direct beneficiaries; refiners and airlines face margin pressure
-- Intel (INTC) +5.7% on reports of preliminary agreement to manufacture chips for Apple devices — potential semiconductor momentum play; Moderna +7.5% on hantavirus vaccine development
+- S&P 500 closed May at all-time highs driven by confidence in Strait of Hormuz reopening / US-Iran ceasefire memorandum signed May 28; Trump still deliberating final nuclear deal terms — resolution not imminent
+- US Commerce Department closed AI chip loophole that allowed Nvidia/AMD chips to reach Chinese firms overseas; now requires licenses regardless of location — direct headwind for NVDA China revenue
+- Broadcom (AVGO) earnings this week — widely expected to be market-defining for AI semiconductor sentiment; AVGO "priced for perfection" heading in
+- DDOG at $250.96 (+17.6% from entry $213.44); DASH 2026 conference June 9-10 at Javits Center is a near-term catalyst; FedRAMP High certification opens federal government market
+- OXY CEO change: Vicki Hollub retired June 1, Richard Jackson (COO, insider since 2003) assumes CEO role; Bandit prospect oil discovery in Gulf of America; Mizuho PT raised to $75 (Outperform)
+- NVDA ex-dividend date June 4 ($0.25/share); COMPUTEX 2026 upcoming (Vera CPUs, agentic AI showcase)
+- June historically worst month in midterm election years — market consolidation possible after record May
 
 **Watching next session:**
-- CPI Tuesday: if in-line or below consensus, consider OXY entry (~$53); if hot, remain fully defensive
-- RKLB: trailing stop ~5% below current price (~$100.89 at $106.20). Watch for move toward $120 PT; any Neutron rocket development/launch news could re-rate higher. No adds while above 10% cap
-- OXY: potential first entry at ~$53 after CPI clarity; Q1 earnings strong, Berkshire Hathaway backing, oil structurally supported by Hormuz closure; 52-week high $67.45 (28% upside from current)
-- DDOG: watching for pullback to $185-190 zone; KeyBanc and Canaccord PTs at $225; was $194 on May 8
-- INTC: watch for post-gap consolidation after Apple chip deal; entry on pullback if semiconductor sector momentum continues
+- AVGO earnings result — if strong, AI infrastructure sentiment lifts NVDA and DDOG; if weak, could pressure tech sector
+- DDOG DASH 2026 conference June 9-10 — product launches and AI observability news could re-rate higher; consider adding if a position slot opens
+- NVDA China chip loophole closure — watch for analyst commentary on China revenue impact; COMPUTEX announcement could offset headwind
+- OXY: monitor oil prices vs Iran deal progress; if deal signed, reduce OXY position and rotate into another sector; Mizuho PT $75 = 32% upside from current $56.86
+- ISM Manufacturing (May) and S&P Global PMI Manufacturing — released today; above-50 reading bullish for industrials
+- MDGL: flat since entry (+0.1%); Rezdiffra commercial launch progress to watch; Truist PT $709 = 40% upside; patience required for commercial ramp
