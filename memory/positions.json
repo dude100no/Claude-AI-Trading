@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 43,
+    "entry_price": 213.439767,
+    "entry_date": "unknown (reconciled 2026-06-02 from live account)",
+    "thesis": "AI-observability software leader. Up ~66% in 2026; RBC Outperform PT $250 (29 May), JPMorgan sees ~43% further upside. Durable land-and-expand model riding cloud/AI workload growth. Long-term hold; thesis strengthening.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": null
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "unknown (reconciled 2026-06-02 from live account)",
+    "thesis": "Madrigal Pharmaceuticals — Rezdiffra is first FDA-approved MASH therapy. New Phase 3 + real-world data (27 May) show reduced cardiovascular and liver-related risk. Truist Buy PT $709, Evercore Outperform $649, Canaccord Buy $578 — large analyst upside vs ~$481 price. Healthcare diversifier; long-term commercial ramp thesis.",
+    "stop_loss_pct": 0.05,
+    "order_id": null
+  },
+  {
+    "symbol": "NVDA",
+    "qty": 23,
+    "entry_price": 216.763478,
+    "entry_date": "unknown (reconciled 2026-06-02 from live account)",
+    "thesis": "Dominant AI/datacenter GPU franchise. Computex momentum; Jensen Huang ecosystem endorsements (Marvell) reinforce AI-infrastructure demand cycle. Core long-term compounder. Tech sector slot #2 (with DDOG) — sector at 2-position cap.",
+    "stop_loss_pct": 0.05,
+    "order_id": null
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "unknown (reconciled 2026-06-02 from live account)",
+    "thesis": "Occidental Petroleum — energy diversifier. Berkshire Hathaway backing; Mizuho Outperform PT $75, Barclays upgrade to Overweight PT $72. Acquiring 10% stake in Exxon Trinidad deepwater block (26 May). Oil structurally supported by Iran/Mideast tensions. Long-term value + hedge against inflation/energy shocks.",
+    "stop_loss_pct": 0.05,
+    "order_id": null
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "unknown (reconciled 2026-06-02 from live account)",
+    "thesis": "Visa — wide-moat global payments network. Toll-booth economics on consumer spending, secular cash-to-digital shift, strong free cash flow. Financials sector diversifier; defensive compounder. Long-term hold.",
+    "stop_loss_pct": 0.05,
+    "order_id": null
   }
 ]

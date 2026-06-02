@@ -1,21 +1,20 @@
-# Market Context — 2026-05-11
+# Market Context — 2026-06-02
 
-**Sentiment:** Mixed
-**VIX:** 17.19
-**Key indices:** SPY $736.73, QQQ $711.23 (futures -0.1%)
-**Style used today:** Defensive/Hold
+**Sentiment:** Mixed-bullish
+**VIX:** ~16.05 (low; 1 Jun close, +4.77% on the day)
+**Key indices:** Record highs Monday 1 Jun (tech + energy led); SPY/Nasdaq futures ~-0.2% pre-market Tuesday on Iran-talks uncertainty
+**Style used today:** Defensive/Hold (no trades)
 
 **Key observations:**
-- Trump rejected Iran's latest peace proposal; Brent oil surged to $104-111/barrel (+3.5%), Strait of Hormuz closure ongoing since Feb 28 — structural tailwind for energy (OXY, XOM, CVX, EOG), headwind for airlines and inflation
-- RKLB thesis strongly reinforced: Needham and TD Cowen both raised PTs to $120 (from $90), current price ~$106.20; entry at $99.03 shows +7.24% unrealized P&L (+$839); stock was up 34% on Friday May 8
-- CPI release Tuesday May 12 at 8:30 AM ET — consensus headline +0.6% MoM / +3.7% YoY; core +0.3% MoM / +2.7% YoY — single biggest risk event of the week; hot print could hurt equities broadly
-- Ed Yardeni raised S&P 500 target to 8,250, warns of potential "meltup" — bullish long-term but underscores that positioning may be crowded
-- UAE left OPEC May 1, 2026 — structural shift in oil market; US upstream (XOM, CVX, OXY, EOG) positioned as direct beneficiaries; refiners and airlines face margin pressure
-- Intel (INTC) +5.7% on reports of preliminary agreement to manufacture chips for Apple devices — potential semiconductor momentum play; Moderna +7.5% on hantavirus vaccine development
+- Reconciliation event: memory had only RKLB but live account holds DDOG, MDGL, NVDA, OXY, V and NO RKLB — memory had been stale/unpushed for several sessions. positions.json + performance.json rebuilt from the live account this session.
+- RKLB closed via 5% trailing stop: ATH $150.23 on 27 May, then -12.87% on 1 Jun (Blue Origin rocket explosion + SpaceX IPO valuation cooling). Est. exit ~$142.72, est. realized ~+$5,112 (exact fill unrecorded — estimate).
+- Portfolio $103,827; cash $73,076 (~70% cash — lots of dry powder). 5 positions across 4 sectors: Tech (DDOG, NVDA — at 2-cap), Healthcare (MDGL), Energy (OXY), Financials (V).
+- DDOG +24% (11% of port, just over 10% cap from appreciation — no add, no trim); analysts still bullish (RBC PT $250, JPMorgan +43%). NVDA +4.3% on AI/Computex momentum (Huang crowns Marvell next $1T co, MRVL +20%). OXY +4.8% (Mizuho PT $75, Barclays $72, Trinidad deepwater stake, oil firm on Iran). MDGL -4.6% (Rezdiffra MASH data strong; PTs $578-709). V flat.
+- Macro risks: Iran negotiations on/off (oil spiked ~8% intraday 1 Jun); SpaceX possible Nasdaq debut ~12 Jun (space-sector volatility). HPE +26% on AI-infra earnings — AI capex cycle still strong.
 
 **Watching next session:**
-- CPI Tuesday: if in-line or below consensus, consider OXY entry (~$53); if hot, remain fully defensive
-- RKLB: trailing stop ~5% below current price (~$100.89 at $106.20). Watch for move toward $120 PT; any Neutron rocket development/launch news could re-rate higher. No adds while above 10% cap
-- OXY: potential first entry at ~$53 after CPI clarity; Q1 earnings strong, Berkshire Hathaway backing, oil structurally supported by Hormuz closure; 52-week high $67.45 (28% upside from current)
-- DDOG: watching for pullback to $185-190 zone; KeyBanc and Canaccord PTs at $225; was $194 on May 8
-- INTC: watch for post-gap consolidation after Apple chip deal; entry on pullback if semiconductor sector momentum continues
+- MRVL — semis momentum (+20% on Huang endorsement); candidate IF a tech slot opens (tech currently at 2-position cap, so not addable now).
+- Second Financials or Healthcare name to deepen diversification given large cash balance (~70%) — but only on a genuine setup, not to force deployment.
+- DDOG: monitor the >10%-of-portfolio overweight; trim only if thesis breaks, not on price noise.
+- OXY / energy: track Iran-talks headlines and crude — direct driver of the thesis.
+- Reconfirm exact RKLB exit fill if order history becomes accessible; current performance figures are estimates.

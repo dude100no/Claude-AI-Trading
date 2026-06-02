@@ -1,7 +1,19 @@
 {
-  "total_realized_pl": 0.0,
-  "total_trades": 0,
-  "winning_trades": 0,
+  "total_realized_pl": 5112.08,
+  "total_trades": 1,
+  "winning_trades": 1,
   "losing_trades": 0,
-  "trade_history": []
+  "trade_history": [
+    {
+      "symbol": "RKLB",
+      "qty": 117,
+      "entry_price": 99.026752,
+      "entry_date": "2026-05-08",
+      "exit_price": 142.72,
+      "exit_date": "2026-06-01",
+      "realized_pl": 5112.08,
+      "result": "win",
+      "note": "Closed via 5% trailing stop. RKLB hit ATH $150.23 on 2026-05-27, then dropped ~12.87% on 2026-06-01 (Blue Origin rocket explosion + SpaceX IPO valuation cooldown), triggering the trailing stop. EXACT EXIT FILL NOT RECORDED in memory (files were stale for several sessions); exit_price and realized_pl are estimates derived from a 5% trailing stop off the documented $150.23 peak. Treat the magnitude as approximate."
+    }
+  ]
 }
