@@ -269,12 +269,26 @@ Trades Executed:
 
 Portfolio:
 - Cash: $[X]
-- Open positions: [SYMBOL1, SYMBOL2, ...]
 - Total value: $[X]
 - Unrealised P&L: $[X]
 
+Open Positions:
+Symbol | Price | Qty | Cost | Value | P&L
+[SYMBOL] | $[entry_price] | [qty] | $[cost] | $[current_value] | $[pl_dollars] ([pl_pct]%)
+(e.g. AAPL | $182.50 | 5 | $912.50 | $918.75 | $6.25 (+0.7%))
+(Show every open position as one row. Cost = entry_price x qty. Value = current_price x qty. P&L = Value - Cost. Use + for gains, - for losses.)
+
 Notes:
-[Write 3-5 sentences in plain English for an amateur investor with no trading background. Explain what happened today and why — what you bought or passed on, and the simple reason behind each choice. If you use any trading term (e.g. "trailing stop", "earnings beat", "price target", "pullback", "resistance"), define it immediately in plain words. Explain what this means for the user's actual money: is the position safe, what could go wrong, what are you hoping will happen. End with what to watch next session and explain why it matters to the portfolio.]
+- [Key point 1 in plain English — what happened today and why]
+- [Key point 2 — what you bought or passed on and the simple reason]
+- [Key point 3 — what this means for the user's money: is the position safe, what could go wrong]
+- [Key point 4 — what to watch next session and why it matters]
+(Write 3-5 bullet points for an amateur investor. Define any trading terms immediately in plain words. End each bullet with the "so what" for the user's money.)
+
+Industry Sentiment:
+[Industry1]: [score between -1.0 and 1.0] (e.g. Technology: +0.6)
+[Industry2]: [score between -1.0 and 1.0]
+(List only industries represented in the current open positions. Score: +1.0 = very positive outlook, 0 = neutral, -1.0 = very negative. Base the score on today's news, macro data, and sector performance.)
 
 Sources:
 - [Short description of the claim — e.g. "Citizens analyst price target $95"]: [Publication or analyst firm], [date], [URL if available]
@@ -339,8 +353,10 @@ Run the following commands in sequence:
 ```
 git add memory/positions.json memory/session_log.jsonl memory/performance.json memory/market_context.md
 git commit -m "chore: session update [today's date]"
-git push origin main
+git push origin HEAD:main
 ```
+
+The `HEAD:main` refspec pushes the current branch's HEAD directly to the remote `main` branch, regardless of which branch the agent is running on. This avoids creating a separate branch that requires a manual merge.
 
 **On failure:** If any git command fails (authentication error, network issue, no remote configured), do NOT abort or retry. Instead, append a brief warning to the Telegram daily summary already sent:
 
