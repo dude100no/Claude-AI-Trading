@@ -1,7 +1,19 @@
 {
-  "total_realized_pl": 0.0,
-  "total_trades": 0,
-  "winning_trades": 0,
+  "total_realized_pl": 217.62,
+  "total_trades": 1,
+  "winning_trades": 1,
   "losing_trades": 0,
-  "trade_history": []
+  "trade_history": [
+    {
+      "symbol": "RKLB",
+      "side": "sell",
+      "qty": 117,
+      "entry_price": 99.026752,
+      "exit_price": 100.89,
+      "realized_pl": 217.62,
+      "entry_date": "2026-05-08",
+      "exit_date": "2026-05-12 to 2026-06-01",
+      "exit_reason": "trailing stop-loss triggered (5% trailing from ~$106.20 high noted on May 11); exact exit date unknown due to memory gap between sessions"
+    }
+  ]
 }

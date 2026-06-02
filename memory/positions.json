@@ -1,11 +1,47 @@
 [
   {
-    "symbol": "RKLB",
-    "qty": 117,
-    "entry_price": 99.026752,
-    "entry_date": "2026-05-08",
-    "thesis": "Q1 record revenue + defense contract wins (national security space programs). Citizens raised PT to $95 (from $85), Clear Street PT $98. Up 7.9% on earnings day with further analyst upgrades. Supply chain gaps closed, national security contracts accelerating. PT range $95-98 implies 11-15% upside from web-quoted price; actual fill at $99.03 — monitor position for supply/demand confirmation in early trading sessions.",
+    "symbol": "DDOG",
+    "qty": 43,
+    "entry_price": 213.439767,
+    "entry_date": "2026-05-14",
+    "thesis": "AI observability category leader; beat Q1 2026 EPS and revenue estimates with raised guidance; DASH 2026 conference (Jun 9-10 NYC) is a near-term catalyst; FedRAMP High certification opens federal market; KeyBanc and Canaccord PTs $225+; secular tailwind from enterprise AI observability adoption.",
     "stop_loss_pct": 0.05,
-    "order_id": "4f873f2b-2d11-48d4-a6e6-d0704535cb32"
+    "order_id": "memory-reconstructed-session-gap"
+  },
+  {
+    "symbol": "MDGL",
+    "qty": 9,
+    "entry_price": 504.351111,
+    "entry_date": "2026-05-19",
+    "thesis": "Rezdiffra is the first FDA-approved NASH/MASH treatment; Q1 2026 revenue $311M (+127% YoY); Truist PT $709, Barclays Buy; next major catalyst is F4 cirrhosis trial results which could expand addressable market to a much larger patient population; long-term blockbuster potential in metabolic liver disease.",
+    "stop_loss_pct": 0.05,
+    "order_id": "memory-reconstructed-session-gap"
+  },
+  {
+    "symbol": "NVDA",
+    "qty": 23,
+    "entry_price": 216.763478,
+    "entry_date": "2026-05-21",
+    "thesis": "Dominant AI chip platform with secular demand growth; COMPUTEX 2026 keynote (Jun 1) unveiled RTX Spark AI laptop chip and DSX AI factory playbook; analyst consensus Strong Buy with 12-month avg target $296 (34% upside from current); TSMC price hikes for 3nm chips signal AI demand exceeds supply — bullish for Nvidia pricing power.",
+    "stop_loss_pct": 0.05,
+    "order_id": "memory-reconstructed-session-gap"
+  },
+  {
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-12",
+    "thesis": "Energy play on Hormuz closure structural tailwind; Q1 2026 EPS estimates up 62%; Barclays upgraded to Buy (PT $72), Mizuho PT $75; Berkshire Hathaway backing; new Bandit oil discovery in Gulf of America (~125 miles off Louisiana); CEO transition (Hollub retiring Jun 1 → Jackson, 23-year insider) is a manageable risk; quarterly dividend $0.26/share declared.",
+    "stop_loss_pct": 0.05,
+    "order_id": "memory-reconstructed-session-gap"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-26",
+    "thesis": "Defensive financial holding with dominant global payments network moat; Q2 2026 beat on both revenue and EPS; analyst consensus PT $386 (~19.5% upside); estimated 24% discount to fair value; strategic AI investment (Replit); low correlation to tech and energy positions improves portfolio diversification; quarterly dividend $0.67/share.",
+    "stop_loss_pct": 0.05,
+    "order_id": "memory-reconstructed-session-gap"
   }
 ]
