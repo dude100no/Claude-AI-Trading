@@ -46,6 +46,12 @@ All secrets are passed as environment variables — nothing is hardcoded:
 
 ## Commands
 
+> **Always activate the local virtual environment before running any Python file or command:**
+> ```bash
+> .venv\Scripts\activate   # Windows
+> source .venv/bin/activate  # macOS/Linux
+> ```
+
 ```bash
 # Setup (creates .venv, installs deps, initializes memory files, runs tests)
 bash setup.sh
@@ -88,7 +94,7 @@ The routine (`.claude/routines/trading-routine.md`, schedule `0 12 * * 1-5`) run
 4. **Portfolio reconciliation** → compare live positions to `memory/positions.json`; detect stop-loss triggers
 5. **Market research** → web search (VIX, SPY/QQQ, sectors) + Alpaca news + OHLCV for held positions
 6. **AI analysis** → sentiment classification, style selection, hold/exit/add decisions, new candidates
-7. **Position sizing** → `qty = floor(portfolio_value × max_position_pct / price)`; enforce `max_open_positions`
+7. **Position sizing** → `qty = floor(portfolio_value × max_position_pct / price)`; no cap on total open positions
 8. **Trade execution** → `place_order` / `close_position` via CLI
 9. **Memory update + Telegram summary** → rewrite all four files; send daily message; Friday = weekly review
 
@@ -108,7 +114,6 @@ Four files persist state across sessions. The routine rewrites all of them at en
 Defined in `config.json` (non-secret, committed):
 - `max_position_pct: 0.10` — no single position > 10% of portfolio
 - `stop_loss_pct: 0.05` — default trailing stop on every buy
-- `max_open_positions: 5` — hard cap enforced before any buy
 - `paper_trading: true` — points at paper API; flip to `false` for live
 - `halt: false` — kill switch; set `true` to block all trading immediately
 
