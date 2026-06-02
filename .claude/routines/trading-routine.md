@@ -36,6 +36,24 @@ All scripts print JSON to stdout. Parse responses to inform your decisions.
 
 ---
 
+## Step 0: Switch to Remote Branch
+
+Before doing anything else, check out the `remote` branch so all session changes land there:
+
+```
+git checkout remote
+```
+
+If the checkout fails (branch does not exist, detached HEAD, etc.), abort the session and notify:
+
+```
+python telegram_notify.py "Trading session aborted — could not checkout 'remote' branch. Manual intervention required."
+```
+
+Do not proceed until you are confirmed on the `remote` branch.
+
+---
+
 ## Step 1: Halt & Market Gate Check
 
 Read `config.json`. If `halt` is `true`:
@@ -353,10 +371,10 @@ Run the following commands in sequence:
 ```
 git add memory/positions.json memory/session_log.jsonl memory/performance.json memory/market_context.md
 git commit -m "chore: session update [today's date]"
-git push origin HEAD:main
+git push origin remote
 ```
 
-The `HEAD:main` refspec pushes the current branch's HEAD directly to the remote `main` branch, regardless of which branch the agent is running on. This avoids creating a separate branch that requires a manual merge.
+Only the four `memory/` files are staged and committed. The push targets the `remote` branch, which is the branch checked out in Step 0.
 
 **On failure:** If any git command fails (authentication error, network issue, no remote configured), do NOT abort or retry. Instead, append a brief warning to the Telegram daily summary already sent:
 
