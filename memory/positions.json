@@ -79,5 +79,14 @@
     "thesis": "JPMorgan Chase — best-in-class money-center bank; Q1 FY26 revenue +10% YoY, net interest income +9%, results beat. Buy consensus, median PT ~$345 (~16% upside). Financials sector lagging YTD (-5%) offers rotation value; second Financials slot alongside V. Risk: rate/regulatory headwinds, credit cycle. Hold weeks-months. Sector: Financials.",
     "stop_loss_pct": 0.05,
     "order_id": "2916a601-416f-496b-8b36-72585db20429"
+  },
+  {
+    "symbol": "VXUS",
+    "qty": 59,
+    "entry_price": 86.72,
+    "entry_date": "2026-06-02",
+    "thesis": "Vanguard Total International Stock ETF — broad developed + emerging markets ex-US in one low-cost fund (ER ~0.05%). Initiates geographic diversification (portfolio was 100% US). Tailwinds: weak USD, international equities outperforming US YTD, EM at new highs (Asian AI/semis, India/China inflows). First entry at 5% sizing; 2nd International slot reserved for a possible EM tilt (e.g. IEMG). Risk: USD strength reversal, EM/geopolitical volatility. Hold weeks-months. Sector: International/Diversified.",
+    "stop_loss_pct": 0.05,
+    "order_id": "ac3193c8-c2a8-41e7-9ee6-a6a1e3d53c94"
   }
 ]
