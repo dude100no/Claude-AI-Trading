@@ -1,7 +1,53 @@
 {
-  "total_realized_pl": 0.0,
-  "total_trades": 0,
-  "winning_trades": 0,
-  "losing_trades": 0,
-  "trade_history": []
+  "total_realized_pl": 2394.03,
+  "total_trades": 4,
+  "winning_trades": 2,
+  "losing_trades": 2,
+  "trade_history": [
+    {
+      "symbol": "RKLB",
+      "qty": 117,
+      "entry_price": 99.026752,
+      "exit_price": 117.456667,
+      "entry_date": "2026-05-08",
+      "exit_date": "2026-05-11",
+      "realized_pl": 2156.30,
+      "result": "win",
+      "note": "Trailing stop locked in gains after run toward $120 PT; not a loss as stale memory had feared."
+    },
+    {
+      "symbol": "QCOM",
+      "qty": 21,
+      "entry_price": 226.094286,
+      "exit_price": 213.24,
+      "entry_date": "2026-05-12",
+      "exit_date": "2026-05-13",
+      "realized_pl": -269.94,
+      "result": "loss",
+      "note": "Trailing stop triggered next day; short hold, thesis never developed."
+    },
+    {
+      "symbol": "WMT",
+      "qty": 38,
+      "entry_price": 132.34,
+      "exit_price": 118.922369,
+      "entry_date": "2026-05-15",
+      "exit_date": "2026-05-26",
+      "realized_pl": -509.87,
+      "result": "loss",
+      "note": "Trailing stop triggered after a multi-day drawdown."
+    },
+    {
+      "symbol": "DDOG",
+      "qty": 18,
+      "entry_price": 213.439767,
+      "exit_price": 269.97,
+      "entry_date": "2026-05-29",
+      "exit_date": "2026-06-02",
+      "realized_pl": 1017.54,
+      "result": "win",
+      "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
+    }
+  ],
+  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
 }
