@@ -88,5 +88,23 @@
     "thesis": "Vanguard Total International Stock ETF — broad developed + emerging markets ex-US in one low-cost fund (ER ~0.05%). Initiates geographic diversification (portfolio was 100% US). Tailwinds: weak USD, international equities outperforming US YTD, EM at new highs (Asian AI/semis, India/China inflows). First entry at 5% sizing; 2nd International slot reserved for a possible EM tilt (e.g. IEMG). Risk: USD strength reversal, EM/geopolitical volatility. Hold weeks-months. Sector: International/Diversified.",
     "stop_loss_pct": 0.05,
     "order_id": "ac3193c8-c2a8-41e7-9ee6-a6a1e3d53c94"
+  },
+  {
+    "symbol": "MCD",
+    "qty": 18,
+    "entry_price": 275.47,
+    "entry_date": "2026-06-02",
+    "thesis": "McDonald's — global QSR leader and dividend aristocrat; defensive-discretionary compounder with franchise-driven, high-margin cash flows and pricing power. Moderate Buy consensus, mean PT ~$331.67 (~20% upside). Fills 2nd Consumer Discretionary slot alongside AMZN, balancing AMZN's growth/cloud tilt with a defensive consumer brand. Risk: consumer-spending slowdown, FX headwinds on international comps, valuation. Hold weeks-months. Sector: Consumer Discretionary.",
+    "stop_loss_pct": 0.05,
+    "order_id": "c2d0781e-0f50-4295-819d-7ea0e3104dc6"
+  },
+  {
+    "symbol": "PG",
+    "qty": 35,
+    "entry_price": 139.71,
+    "entry_date": "2026-06-02",
+    "thesis": "Procter & Gamble — Dividend King (54 consecutive years of increases, ~3.5% yield) and best-in-class consumer-staples compounder with durable brand portfolio and pricing power. Defensive ballast as the market sits at record highs; staples sector lagging YTD (XLP ~+7%) offers value. Fills 2nd Consumer Staples slot alongside COST. Risk: input-cost inflation, soft volumes, FX. Hold weeks-months. Sector: Consumer Staples.",
+    "stop_loss_pct": 0.05,
+    "order_id": "2e8ba9e5-32c4-4cb4-b370-8e5badee1d85"
   }
 ]
