@@ -1,8 +1,8 @@
 {
-  "total_realized_pl": 2394.03,
-  "total_trades": 4,
-  "winning_trades": 2,
-  "losing_trades": 2,
+  "total_realized_pl": 2878.48,
+  "total_trades": 8,
+  "winning_trades": 4,
+  "losing_trades": 4,
   "trade_history": [
     {
       "symbol": "RKLB",
@@ -47,7 +47,51 @@
       "realized_pl": 1017.54,
       "result": "win",
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
+    },
+    {
+      "symbol": "DDOG",
+      "qty": 25,
+      "entry_price": 213.439767,
+      "exit_price": 254.87,
+      "entry_date": "2026-05-12",
+      "exit_date": "2026-06-03",
+      "realized_pl": 1035.76,
+      "result": "win",
+      "note": "Remaining 25-share lot trailing-stopped out 2026-06-03 after DDOG pulled back from its ~$270 high; total DDOG realized across both lots ~+$2,053. Reconciled from Alpaca order history (session was unlogged)."
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 23,
+      "entry_price": 216.763478,
+      "exit_price": 220.06,
+      "entry_date": "2026-05-26",
+      "exit_date": "2026-06-03",
+      "realized_pl": 75.82,
+      "result": "win",
+      "note": "Trailing stop triggered 2026-06-03 amid the Broadcom-led chip selloff; small gain banked. Reconciled from Alpaca order history (session was unlogged)."
+    },
+    {
+      "symbol": "MDGL",
+      "qty": 9,
+      "entry_price": 504.351111,
+      "exit_price": 450.156667,
+      "entry_date": "2026-05-12",
+      "exit_date": "2026-06-03",
+      "realized_pl": -487.75,
+      "result": "loss",
+      "note": "Trailing stop triggered 2026-06-03 after continued drawdown; single-drug biotech volatility played out against the position. Reconciled from Alpaca order history (session was unlogged)."
+    },
+    {
+      "symbol": "AMZN",
+      "qty": 19,
+      "entry_price": 255.388421,
+      "exit_price": 248.052632,
+      "entry_date": "2026-06-02",
+      "exit_date": "2026-06-03",
+      "realized_pl": -139.38,
+      "result": "loss",
+      "note": "Trailing stop triggered next day after a quick post-entry dip; short hold. Reconciled from Alpaca order history (session was unlogged)."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "Updated 2026-06-04: reconciled the unlogged 2026-06-03 session from Alpaca order history. That session trailing-stopped out DDOG (remaining 25), NVDA, MDGL, AMZN and rotated into ASML/MSFT/ABBV. Realized P&L for those four exits: +$1,035.76 (DDOG), +$75.82 (NVDA), -$487.75 (MDGL), -$139.38 (AMZN) = +$484.45 net. Cumulative realized now +$2,878.48 over 8 trades (4W/4L). Figures use Alpaca average-cost basis."
 }

@@ -1,39 +1,48 @@
 [
   {
-    "symbol": "DDOG",
-    "qty": 25,
-    "entry_price": 213.44,
-    "entry_date": "2026-05-12",
-    "thesis": "Cloud observability/monitoring leader with strong net revenue retention and AI-driven monitoring tailwinds. Big winner (+24%); partial 18-share lot trailing-stopped out today at $269.97 for a locked gain, 25 shares retained to let the winner run. Sector: Technology.",
+    "symbol": "ASML",
+    "qty": 3,
+    "entry_price": 1722.84,
+    "entry_date": "2026-06-03",
+    "thesis": "ASML Holding — monopoly supplier of EUV lithography systems, the chokepoint enabling every advanced semiconductor node. Structural beneficiary of the AI-driven chip capex supercycle regardless of which chipmaker wins. Inherited from 2026-06-03 session (replaced NVDA in Tech sleeve). Risk: China export controls, lumpy order timing. Hold weeks-months. Sector: Technology.",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-12"
+    "order_id": "inherited-2026-06-03"
   },
   {
-    "symbol": "MDGL",
-    "qty": 9,
-    "entry_price": 504.351111,
-    "entry_date": "2026-05-12",
-    "thesis": "Madrigal Pharmaceuticals — Rezdiffra (resmetirom), first FDA-approved therapy for MASH/NASH, addressing a large untapped liver-disease market in early launch ramp. Down ~7.6% on short-term noise; long-term launch thesis intact, not a thesis break. Sector: Healthcare.",
+    "symbol": "MSFT",
+    "qty": 12,
+    "entry_price": 426.15,
+    "entry_date": "2026-06-03",
+    "thesis": "Microsoft — Azure cloud + Copilot AI monetization on top of an entrenched enterprise software franchise and durable recurring revenue. Inherited from 2026-06-03 session (replaced DDOG in Tech sleeve). Less exposed to the GPU-vs-ASIC chip rotation than hardware names. Risk: AI capex digestion, cloud growth deceleration. Hold weeks-months. Sector: Technology.",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-12"
+    "order_id": "inherited-2026-06-03"
   },
   {
-    "symbol": "NVDA",
+    "symbol": "ABBV",
     "qty": 23,
-    "entry_price": 216.763478,
-    "entry_date": "2026-05-26",
-    "thesis": "AI semiconductor leader; dominant data-center GPU franchise riding multi-year AI infrastructure buildout. CEO Huang reaffirmed returning 50%+ of free cash flow to shareholders this year. Up ~4.6%. Sector: Technology.",
+    "entry_price": 218.01,
+    "entry_date": "2026-06-03",
+    "thesis": "AbbVie — large-cap pharma with Skyrizi/Rinvoq immunology growth engines now well past the Humira patent cliff, plus a deep aesthetics and neuroscience portfolio and a ~3% dividend. Inherited from 2026-06-03 session (replaced MDGL in Healthcare sleeve; lower-volatility quality vs single-drug biotech). Risk: pipeline setbacks, drug-pricing policy. Hold weeks-months. Sector: Healthcare.",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-26"
+    "order_id": "inherited-2026-06-03"
   },
   {
-    "symbol": "OXY",
-    "qty": 85,
-    "entry_price": 55.926118,
-    "entry_date": "2026-05-13",
-    "thesis": "Occidental Petroleum — Berkshire-backed energy major; oil structurally supported by Middle East tensions and OPEC dynamics. Energy sector leading YTD (+26%). Up ~4.8%. Geopolitical binary: a US-Iran deal could soften oil. Sector: Energy.",
+    "symbol": "LLY",
+    "qty": 4,
+    "entry_price": 1077.0,
+    "entry_date": "2026-06-02",
+    "thesis": "Eli Lilly — best-in-class GLP-1/obesity and diabetes franchise (tirzepatide) with a deep, durable pipeline. Buy consensus, avg PT ~$1,215-1,265; up ~5.6% since entry. Second Healthcare slot alongside ABBV. Risk: GLP-1 competition, pricing pressure, high valuation. Hold weeks-months. Sector: Healthcare.",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-13"
+    "order_id": "4d9d2035-6208-45bc-a683-0b5018516c21"
+  },
+  {
+    "symbol": "JPM",
+    "qty": 17,
+    "entry_price": 299.42,
+    "entry_date": "2026-06-02",
+    "thesis": "JPMorgan Chase — best-in-class money-center bank; Q1 FY26 revenue +10% YoY, NII +9%, results beat. Buy consensus, median PT ~$345. Up ~3.7% since entry. Second Financials slot alongside V. Risk: rate/regulatory headwinds, credit cycle. Hold weeks-months. Sector: Financials.",
+    "stop_loss_pct": 0.05,
+    "order_id": "2916a601-416f-496b-8b36-72585db20429"
   },
   {
     "symbol": "V",
@@ -45,48 +54,66 @@
     "order_id": "inherited-2026-05-13"
   },
   {
-    "symbol": "AMZN",
-    "qty": 19,
-    "entry_price": 255.388421,
-    "entry_date": "2026-06-02",
-    "thesis": "Amazon — AWS cloud + advertising margin expansion plus dominant e-commerce franchise. Strong Buy consensus, avg analyst PT ~$313 (~18% upside). Four-day Prime Day (June 23) is a near-term consumer catalyst. Fills Consumer Discretionary sector (was 0). Risk: EU cloud-procurement tightening, consumer slowdown. Hold weeks-months. Sector: Consumer Discretionary.",
-    "stop_loss_pct": 0.05,
-    "order_id": "791f931c-a865-41b1-bd7b-15397a5d2939"
-  },
-  {
     "symbol": "COST",
     "qty": 5,
     "entry_price": 948.66,
     "entry_date": "2026-06-02",
-    "thesis": "Costco — high-quality compounder; Q3 FY26 net sales +11.6%, comps +9.8%, digital comps +21.5%, membership fee income +10.7%. Buy consensus, avg PT ~$1,084-1,105 (~15% upside). Fills Consumer Staples (was 0). Risk: rich P/E ~48 leaves little margin for a growth stumble. Hold weeks-months. Sector: Consumer Staples.",
+    "thesis": "Costco — high-quality compounder; Q3 FY26 net sales +11.6%, comps +9.8%, digital comps +21.5%, membership fee income +10.7%. Up ~3.4% since entry. First Consumer Staples slot. Risk: rich P/E leaves little margin for a growth stumble. Hold weeks-months. Sector: Consumer Staples.",
     "stop_loss_pct": 0.05,
     "order_id": "19bc3f87-86da-42fc-9913-ad4c858e6355"
   },
   {
-    "symbol": "LLY",
-    "qty": 4,
-    "entry_price": 1077.0,
+    "symbol": "PG",
+    "qty": 35,
+    "entry_price": 139.71,
     "entry_date": "2026-06-02",
-    "thesis": "Eli Lilly — best-in-class GLP-1/obesity and diabetes franchise (tirzepatide) with a deep, durable pipeline. Buy consensus, avg PT ~$1,215-1,265. Second Healthcare slot alongside MDGL. Risk: GLP-1 competition, pricing pressure, high valuation. Hold weeks-months. Sector: Healthcare.",
+    "thesis": "Procter & Gamble — defensive consumer-staples compounder with a portfolio of category-leading daily-use brands, pricing power, and a Dividend King track record. Inherited from 2026-06-02 session as the second Consumer Staples slot alongside COST (lower-beta ballast). Risk: volume softness, FX, input-cost inflation. Hold weeks-months. Sector: Consumer Staples.",
     "stop_loss_pct": 0.05,
-    "order_id": "4d9d2035-6208-45bc-a683-0b5018516c21"
+    "order_id": "inherited-2026-06-02"
   },
   {
-    "symbol": "JPM",
-    "qty": 17,
-    "entry_price": 299.42,
-    "entry_date": "2026-06-02",
-    "thesis": "JPMorgan Chase — best-in-class money-center bank; Q1 FY26 revenue +10% YoY, net interest income +9%, results beat. Buy consensus, median PT ~$345 (~16% upside). Financials sector lagging YTD (-5%) offers rotation value; second Financials slot alongside V. Risk: rate/regulatory headwinds, credit cycle. Hold weeks-months. Sector: Financials.",
+    "symbol": "OXY",
+    "qty": 85,
+    "entry_price": 55.926118,
+    "entry_date": "2026-05-13",
+    "thesis": "Occidental Petroleum — Berkshire-backed energy major; oil structurally supported but a live geopolitical binary. Up ~4.6% since entry. Energy sector ballast. Risk: a US-Iran deal / Middle East de-escalation could soften crude (oil declining on Israel-Lebanon ceasefire). Sole Energy slot. Hold weeks-months. Sector: Energy.",
     "stop_loss_pct": 0.05,
-    "order_id": "2916a601-416f-496b-8b36-72585db20429"
+    "order_id": "inherited-2026-05-13"
+  },
+  {
+    "symbol": "MCD",
+    "qty": 18,
+    "entry_price": 275.47,
+    "entry_date": "2026-06-02",
+    "thesis": "McDonald's — defensive, franchise-heavy global QSR with durable brand, pricing power, and a reliable dividend; value menu wins share in a cautious consumer environment. Inherited from 2026-06-02 session; now the sole Consumer Discretionary slot after AMZN was stopped out 2026-06-03. Roughly flat since entry. Risk: traffic softness, FX. Hold weeks-months. Sector: Consumer Discretionary.",
+    "stop_loss_pct": 0.05,
+    "order_id": "inherited-2026-06-02"
   },
   {
     "symbol": "VXUS",
     "qty": 59,
     "entry_price": 86.72,
     "entry_date": "2026-06-02",
-    "thesis": "Vanguard Total International Stock ETF — broad developed + emerging markets ex-US in one low-cost fund (ER ~0.05%). Initiates geographic diversification (portfolio was 100% US). Tailwinds: weak USD, international equities outperforming US YTD, EM at new highs (Asian AI/semis, India/China inflows). First entry at 5% sizing; 2nd International slot reserved for a possible EM tilt (e.g. IEMG). Risk: USD strength reversal, EM/geopolitical volatility. Hold weeks-months. Sector: International/Diversified.",
+    "thesis": "Vanguard Total International Stock ETF — broad developed + emerging markets ex-US in one low-cost fund (ER ~0.05%). Geographic diversification anchor. Roughly flat since entry. Tailwinds: weak USD, international equities outperforming US YTD. Risk: USD strength reversal, EM/geopolitical volatility. First International slot. Hold weeks-months. Sector: International/Diversified.",
     "stop_loss_pct": 0.05,
     "order_id": "ac3193c8-c2a8-41e7-9ee6-a6a1e3d53c94"
+  },
+  {
+    "symbol": "GOOGL",
+    "qty": 14,
+    "entry_price": 371.78,
+    "entry_date": "2026-06-04",
+    "thesis": "Alphabet — Search/YouTube/Cloud franchise with a Strong Buy consensus. A key winner in the GPU-to-custom-silicon (ASIC) shift that hit Broadcom: its TPUs gain as OpenAI/Anthropic scale compute faster than expected. Waymo robotaxi optionality strengthening as Tesla's driverless fleet shrinks. Initiates the Communication Services sector (was 0). Risk: ad-cycle sensitivity, AI-search disruption to core, antitrust. Hold weeks-months. Sector: Communication Services.",
+    "stop_loss_pct": 0.05,
+    "order_id": "fcfb60cd-122c-4bd0-a0d5-5b6d74f668a5"
+  },
+  {
+    "symbol": "CAT",
+    "qty": 5,
+    "entry_price": 938.56,
+    "entry_date": "2026-06-04",
+    "thesis": "Caterpillar — global heavy-machinery leader and the single largest contributor to the Industrials sector's +16% YTD run. New tailwind: its generators help power AI data centers and an expanded Nvidia collaboration brings physical AI/robotics to heavy industry. Initiates the Industrials sector (was 0). Risk: cyclical construction/mining demand, not viewed as undervalued. Hold weeks-months. Sector: Industrials.",
+    "stop_loss_pct": 0.05,
+    "order_id": "2666c79c-e1e6-444f-bcee-3a1d5b752531"
   }
 ]
