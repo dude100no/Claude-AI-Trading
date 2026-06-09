@@ -1,8 +1,8 @@
 {
-  "total_realized_pl": 2394.03,
-  "total_trades": 4,
-  "winning_trades": 2,
-  "losing_trades": 2,
+  "total_realized_pl": 2536.71,
+  "total_trades": 12,
+  "winning_trades": 5,
+  "losing_trades": 7,
   "trade_history": [
     {
       "symbol": "RKLB",
@@ -47,7 +47,95 @@
       "realized_pl": 1017.54,
       "result": "win",
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 23,
+      "entry_price": 216.763478,
+      "exit_price": 220.06,
+      "entry_date": "2026-05-26",
+      "exit_date": "2026-06-03",
+      "realized_pl": 75.82,
+      "result": "win",
+      "note": "Trailing stop triggered on 06-03 during the AI-sector wobble; small gain banked. Reconciled from Alpaca order history."
+    },
+    {
+      "symbol": "MDGL",
+      "qty": 9,
+      "entry_price": 504.351111,
+      "exit_price": 450.156667,
+      "entry_date": "2026-05-12",
+      "exit_date": "2026-06-03",
+      "realized_pl": -487.75,
+      "result": "loss",
+      "note": "Trailing stop triggered 06-03 after the biotech pulled back on short-term noise. Reconciled from Alpaca order history."
+    },
+    {
+      "symbol": "DDOG",
+      "qty": 25,
+      "entry_price": 213.439767,
+      "exit_price": 254.87,
+      "entry_date": "2026-05-12",
+      "exit_date": "2026-06-03",
+      "realized_pl": 1035.76,
+      "result": "win",
+      "note": "Retained 25-share lot trailing-stopped out 06-03; banked a large gain on the original DDOG winner. Reconciled from Alpaca order history."
+    },
+    {
+      "symbol": "AMZN",
+      "qty": 19,
+      "entry_price": 255.388421,
+      "exit_price": 248.052632,
+      "entry_date": "2026-06-02",
+      "exit_date": "2026-06-03",
+      "realized_pl": -139.38,
+      "result": "loss",
+      "note": "Trailing stop triggered next day in the AI/tech wobble; thesis never developed. Reconciled from Alpaca order history."
+    },
+    {
+      "symbol": "ASML",
+      "qty": 3,
+      "entry_price": 1722.84,
+      "exit_price": 1687.066667,
+      "entry_date": "2026-06-03",
+      "exit_date": "2026-06-05",
+      "realized_pl": -107.32,
+      "result": "loss",
+      "note": "Semiconductor-equipment entry trailing-stopped out two days later in the chip-sector pullback. Reconciled from Alpaca order history."
+    },
+    {
+      "symbol": "OXY",
+      "qty": 85,
+      "entry_price": 55.926118,
+      "exit_price": 57.472235,
+      "entry_date": "2026-05-13",
+      "exit_date": "2026-06-05",
+      "realized_pl": 131.42,
+      "result": "win",
+      "note": "Trailing stop triggered 06-05 as oil softened on US-Iran de-escalation; small gain banked on the energy position. Reconciled from Alpaca order history."
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 12,
+      "entry_price": 426.15,
+      "exit_price": 411.873333,
+      "entry_date": "2026-06-03",
+      "exit_date": "2026-06-08",
+      "realized_pl": -171.32,
+      "result": "loss",
+      "note": "Trailing stop triggered 06-08 during the AI-software pullback. Reconciled from Alpaca order history."
+    },
+    {
+      "symbol": "CAT",
+      "qty": 5,
+      "entry_price": 938.56,
+      "exit_price": 899.65,
+      "entry_date": "2026-06-04",
+      "exit_date": "2026-06-09",
+      "realized_pl": -194.55,
+      "result": "loss",
+      "note": "Industrials entry trailing-stopped out 06-09 after a multi-day drawdown. Reconciled from Alpaca order history."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "Reconciled from Alpaca order history on 2026-06-09 — interim sessions (06-03 through 06-08) traded actively without committing memory to this branch. Added 8 newly-discovered closed trades (NVDA, MDGL, DDOG 25-share lot, AMZN, ASML, OXY, MSFT, CAT). Net realized from those 8 = +$142.68. Figures use Alpaca average-cost basis."
 }
