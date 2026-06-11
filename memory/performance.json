@@ -49,5 +49,5 @@
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis. 2026-06-11 UPDATE: Six positions present in memory on 2026-06-02 (DDOG, NVDA, MDGL, OXY, AMZN, VXUS) were closed during un-logged intervening sessions and are no longer in the live account. Their realized P&L could NOT be added to trade_history because alpaca_client.py exposes no order-history command and no exit prices are recoverable from the available tools — so total_realized_pl/total_trades below remain UNDERSTATED and exclude those closures. This is a recurring memory-drift problem: intervening sessions trade but do not persist memory to git. Six new ~5%-sized positions (ABBV, COP, HON, MCD, PG, XOM) were also found live and reconciled into positions.json. No trades were closed in the 2026-06-11 session itself (two buys only: MSFT, VEA)."
 }
