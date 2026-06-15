@@ -1,8 +1,8 @@
 {
-  "total_realized_pl": 2394.03,
-  "total_trades": 4,
-  "winning_trades": 2,
-  "losing_trades": 2,
+  "total_realized_pl": 1536.72,
+  "total_trades": 17,
+  "winning_trades": 6,
+  "losing_trades": 11,
   "trade_history": [
     {
       "symbol": "RKLB",
@@ -47,7 +47,150 @@
       "realized_pl": 1017.54,
       "result": "win",
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
+    },
+    {
+      "symbol": "DDOG",
+      "qty": 25,
+      "entry_price": 213.439767,
+      "exit_price": 254.87,
+      "entry_date": "2026-05-12",
+      "exit_date": "2026-06-03",
+      "realized_pl": 1035.76,
+      "result": "win",
+      "note": "Remaining 25-share lot trailing-stopped out. RECONCILED 2026-06-15 from Alpaca order history (intervening session unlogged)."
+    },
+    {
+      "symbol": "MDGL",
+      "qty": 9,
+      "entry_price": 504.351111,
+      "exit_price": 450.156667,
+      "entry_date": "2026-05-12",
+      "exit_date": "2026-06-03",
+      "realized_pl": -487.75,
+      "result": "loss",
+      "note": "Trailing stop triggered on Rezdiffra-launch price noise. RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 23,
+      "entry_price": 216.763479,
+      "exit_price": 220.06,
+      "entry_date": "2026-05-26",
+      "exit_date": "2026-06-03",
+      "realized_pl": 75.82,
+      "result": "win",
+      "note": "Trailing stop triggered for a small gain. RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "AMZN",
+      "qty": 19,
+      "entry_price": 255.388421,
+      "exit_price": 248.052632,
+      "entry_date": "2026-06-02",
+      "exit_date": "2026-06-03",
+      "realized_pl": -139.38,
+      "result": "loss",
+      "note": "Trailing stop triggered one day after entry. RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "OXY",
+      "qty": 85,
+      "entry_price": 55.926118,
+      "exit_price": 57.472235,
+      "entry_date": "2026-05-13",
+      "exit_date": "2026-06-05",
+      "realized_pl": 131.42,
+      "result": "win",
+      "note": "Trailing stop triggered for a small gain as oil softened. RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "VXUS",
+      "qty": 59,
+      "entry_price": 86.72,
+      "exit_price": 82.63356,
+      "entry_date": "2026-06-02",
+      "exit_date": "2026-06-09",
+      "realized_pl": -241.10,
+      "result": "loss",
+      "note": "International sleeve trailing-stopped out; later re-initiated via VEA. RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "LLY",
+      "qty": 4,
+      "entry_price": 1077.0,
+      "exit_price": 1122.2675,
+      "entry_date": "2026-06-02",
+      "exit_date": "2026-06-15",
+      "realized_pl": 181.07,
+      "result": "win",
+      "note": "Trailing stop triggered for a gain. RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "ASML",
+      "qty": 3,
+      "entry_price": 1722.84,
+      "exit_price": 1687.066667,
+      "entry_date": "2026-06-03",
+      "exit_date": "2026-06-05",
+      "realized_pl": -107.32,
+      "result": "loss",
+      "note": "Trailing stop triggered two days after entry. Unlogged intervening-session trade; RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "CAT",
+      "qty": 5,
+      "entry_price": 938.56,
+      "exit_price": 899.65,
+      "entry_date": "2026-06-04",
+      "exit_date": "2026-06-09",
+      "realized_pl": -194.55,
+      "result": "loss",
+      "note": "Trailing stop triggered. Unlogged intervening-session trade; RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "GOOGL",
+      "qty": 14,
+      "entry_price": 371.78,
+      "exit_price": 353.831429,
+      "entry_date": "2026-06-04",
+      "exit_date": "2026-06-11",
+      "realized_pl": -251.28,
+      "result": "loss",
+      "note": "First GOOGL lot trailing-stopped out; re-entered 06-12 at a lower price (currently held). RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 12,
+      "entry_price": 426.15,
+      "exit_price": 411.873333,
+      "entry_date": "2026-06-03",
+      "exit_date": "2026-06-08",
+      "realized_pl": -171.32,
+      "result": "loss",
+      "note": "First MSFT lot trailing-stopped out; re-entered 06-11 at a lower price (currently held). RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "XOM",
+      "qty": 34,
+      "entry_price": 151.6,
+      "exit_price": 138.689412,
+      "entry_date": "2026-06-10",
+      "exit_date": "2026-06-15",
+      "realized_pl": -438.96,
+      "result": "loss",
+      "note": "Energy entry round-tripped to a loss as oil collapsed on the US-Iran peace deal. Unlogged intervening-session trade; RECONCILED 2026-06-15 from Alpaca order history."
+    },
+    {
+      "symbol": "COP",
+      "qty": 44,
+      "entry_price": 121.09,
+      "exit_price": 115.414545,
+      "entry_date": "2026-06-10",
+      "exit_date": "2026-06-11",
+      "realized_pl": -249.72,
+      "result": "loss",
+      "note": "Energy entry trailing-stopped out one day after entry as oil weakened. Unlogged intervening-session trade; RECONCILED 2026-06-15 from Alpaca order history."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "Reconciled from Alpaca order history on 2026-06-15. Memory files were stale (last logged 2026-06-02); intervening sessions 2026-06-03..06-15 traded actively without persisting logs. Added 13 closed trades from that window: net -857.31 (4W/9L) driven by trailing-stop whipsaw in a choppy tape, including a full energy round-trip (XOM/COP). Running total fell from +2394.03 to +1536.72. Figures use Alpaca average-cost basis."
 }

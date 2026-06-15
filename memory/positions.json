@@ -1,92 +1,101 @@
 [
   {
-    "symbol": "DDOG",
-    "qty": 25,
-    "entry_price": 213.44,
-    "entry_date": "2026-05-12",
-    "thesis": "Cloud observability/monitoring leader with strong net revenue retention and AI-driven monitoring tailwinds. Big winner (+24%); partial 18-share lot trailing-stopped out today at $269.97 for a locked gain, 25 shares retained to let the winner run. Sector: Technology.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-12"
-  },
-  {
-    "symbol": "MDGL",
-    "qty": 9,
-    "entry_price": 504.351111,
-    "entry_date": "2026-05-12",
-    "thesis": "Madrigal Pharmaceuticals — Rezdiffra (resmetirom), first FDA-approved therapy for MASH/NASH, addressing a large untapped liver-disease market in early launch ramp. Down ~7.6% on short-term noise; long-term launch thesis intact, not a thesis break. Sector: Healthcare.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-12"
-  },
-  {
-    "symbol": "NVDA",
+    "symbol": "ABBV",
     "qty": 23,
-    "entry_price": 216.763478,
-    "entry_date": "2026-05-26",
-    "thesis": "AI semiconductor leader; dominant data-center GPU franchise riding multi-year AI infrastructure buildout. CEO Huang reaffirmed returning 50%+ of free cash flow to shareholders this year. Up ~4.6%. Sector: Technology.",
+    "entry_price": 218.01,
+    "entry_date": "2026-06-03",
+    "thesis": "AbbVie — large-cap pharma; post-Humira franchise now driven by Skyrizi and Rinvoq immunology growth plus a deepening neuroscience/aesthetics pipeline. Durable dividend aristocrat. Up ~1.7%. RECONCILED from Alpaca order history 2026-06-15 (opening session unlogged). Sector: Healthcare.",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-26"
-  },
-  {
-    "symbol": "OXY",
-    "qty": 85,
-    "entry_price": 55.926118,
-    "entry_date": "2026-05-13",
-    "thesis": "Occidental Petroleum — Berkshire-backed energy major; oil structurally supported by Middle East tensions and OPEC dynamics. Energy sector leading YTD (+26%). Up ~4.8%. Geopolitical binary: a US-Iran deal could soften oil. Sector: Energy.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-13"
-  },
-  {
-    "symbol": "V",
-    "qty": 15,
-    "entry_price": 322.918,
-    "entry_date": "2026-05-13",
-    "thesis": "Visa — global payments network with a durable toll-booth moat and secular tailwind from the shift to digital/cashless payments. Roughly flat since entry; thesis intact. Sector: Financials.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-13"
-  },
-  {
-    "symbol": "AMZN",
-    "qty": 19,
-    "entry_price": 255.388421,
-    "entry_date": "2026-06-02",
-    "thesis": "Amazon — AWS cloud + advertising margin expansion plus dominant e-commerce franchise. Strong Buy consensus, avg analyst PT ~$313 (~18% upside). Four-day Prime Day (June 23) is a near-term consumer catalyst. Fills Consumer Discretionary sector (was 0). Risk: EU cloud-procurement tightening, consumer slowdown. Hold weeks-months. Sector: Consumer Discretionary.",
-    "stop_loss_pct": 0.05,
-    "order_id": "791f931c-a865-41b1-bd7b-15397a5d2939"
+    "order_id": "2c80ec2e-0fdb-4b81-b855-3cf0f46c06de"
   },
   {
     "symbol": "COST",
     "qty": 5,
     "entry_price": 948.66,
     "entry_date": "2026-06-02",
-    "thesis": "Costco — high-quality compounder; Q3 FY26 net sales +11.6%, comps +9.8%, digital comps +21.5%, membership fee income +10.7%. Buy consensus, avg PT ~$1,084-1,105 (~15% upside). Fills Consumer Staples (was 0). Risk: rich P/E ~48 leaves little margin for a growth stumble. Hold weeks-months. Sector: Consumer Staples.",
+    "thesis": "Costco — high-quality compounder; Q3 FY26 net sales +11.6%, comps +9.8%, digital comps +21.5%, membership fee income +10.7%. Buy consensus, avg PT ~$1,084-1,105. Up ~3.1%. Risk: rich P/E ~48 leaves little margin for a growth stumble. Sector: Consumer Staples.",
     "stop_loss_pct": 0.05,
     "order_id": "19bc3f87-86da-42fc-9913-ad4c858e6355"
   },
   {
-    "symbol": "LLY",
-    "qty": 4,
-    "entry_price": 1077.0,
-    "entry_date": "2026-06-02",
-    "thesis": "Eli Lilly — best-in-class GLP-1/obesity and diabetes franchise (tirzepatide) with a deep, durable pipeline. Buy consensus, avg PT ~$1,215-1,265. Second Healthcare slot alongside MDGL. Risk: GLP-1 competition, pricing pressure, high valuation. Hold weeks-months. Sector: Healthcare.",
+    "symbol": "GOOGL",
+    "qty": 14,
+    "entry_price": 360.801429,
+    "entry_date": "2026-06-12",
+    "thesis": "Alphabet — search/advertising cash machine plus Google Cloud and Gemini AI leadership; $1.5B Alabama data-center expansion announced 2026-06-15 underscores AI capex commitment. Up ~3.3%. RECONCILED from Alpaca order history 2026-06-15 (re-entry after an earlier lot was trailing-stopped out 06-11). Risk: ad-market cyclicality, antitrust. Sector: Technology.",
     "stop_loss_pct": 0.05,
-    "order_id": "4d9d2035-6208-45bc-a683-0b5018516c21"
+    "order_id": "8e3fca09-c9f3-416a-ba81-424fcba2eb8e"
+  },
+  {
+    "symbol": "HON",
+    "qty": 24,
+    "entry_price": 213.04,
+    "entry_date": "2026-06-08",
+    "thesis": "Honeywell — diversified industrial; aerospace, building automation, and process solutions with secular automation/electrification tailwinds. Best unrealized gainer at +7.7%. RECONCILED from Alpaca order history 2026-06-15 (opening session unlogged). Sector: Industrials.",
+    "stop_loss_pct": 0.05,
+    "order_id": "22301071-50c1-4387-a53f-cd641a3d8c06"
   },
   {
     "symbol": "JPM",
     "qty": 17,
     "entry_price": 299.42,
     "entry_date": "2026-06-02",
-    "thesis": "JPMorgan Chase — best-in-class money-center bank; Q1 FY26 revenue +10% YoY, net interest income +9%, results beat. Buy consensus, median PT ~$345 (~16% upside). Financials sector lagging YTD (-5%) offers rotation value; second Financials slot alongside V. Risk: rate/regulatory headwinds, credit cycle. Hold weeks-months. Sector: Financials.",
+    "thesis": "JPMorgan Chase — best-in-class money-center bank; Q1 FY26 revenue +10% YoY, NII +9%, beat. Median PT ~$345. Up ~7.4%. Singapore gold-clearing initiative (Bloomberg, 06-14) a minor positive. Risk: rate/regulatory/credit-cycle. Sector: Financials.",
     "stop_loss_pct": 0.05,
     "order_id": "2916a601-416f-496b-8b36-72585db20429"
   },
   {
-    "symbol": "VXUS",
-    "qty": 59,
-    "entry_price": 86.72,
+    "symbol": "MCD",
+    "qty": 18,
+    "entry_price": 275.47,
     "entry_date": "2026-06-02",
-    "thesis": "Vanguard Total International Stock ETF — broad developed + emerging markets ex-US in one low-cost fund (ER ~0.05%). Initiates geographic diversification (portfolio was 100% US). Tailwinds: weak USD, international equities outperforming US YTD, EM at new highs (Asian AI/semis, India/China inflows). First entry at 5% sizing; 2nd International slot reserved for a possible EM tilt (e.g. IEMG). Risk: USD strength reversal, EM/geopolitical volatility. Hold weeks-months. Sector: International/Diversified.",
+    "thesis": "McDonald's — defensive consumer-discretionary compounder; global franchise model, pricing power, value-menu traffic resilience and strong dividend record. Up ~3.9%. RECONCILED from Alpaca order history 2026-06-15 (opening session unlogged). Sector: Consumer Discretionary.",
     "stop_loss_pct": 0.05,
-    "order_id": "ac3193c8-c2a8-41e7-9ee6-a6a1e3d53c94"
+    "order_id": "c2d0781e-0f50-4295-819d-7ea0e3104dc6"
+  },
+  {
+    "symbol": "MSFT",
+    "qty": 12,
+    "entry_price": 388.826667,
+    "entry_date": "2026-06-11",
+    "thesis": "Microsoft — Azure cloud + Copilot/OpenAI AI monetization across the enterprise stack; durable recurring revenue and wide moat. Up ~3.2%. RECONCILED from Alpaca order history 2026-06-15 (re-entry after an earlier lot was trailing-stopped out 06-08). Risk: AI-capex digestion, valuation. Sector: Technology.",
+    "stop_loss_pct": 0.05,
+    "order_id": "69bc2e9f-b44f-40a7-9fa2-0573c656da40"
+  },
+  {
+    "symbol": "NEE",
+    "qty": 60,
+    "entry_price": 85.76,
+    "entry_date": "2026-06-12",
+    "thesis": "NextEra Energy — largest US regulated utility (FPL) plus the leading renewables developer; secular power-demand growth from electrification and data centers. Defensive yield with growth. Roughly flat (+0.1%). RECONCILED from Alpaca order history 2026-06-15 (opening session unlogged). Risk: rate sensitivity. Sector: Utilities.",
+    "stop_loss_pct": 0.05,
+    "order_id": "8b52de10-4e2d-4fee-bd67-1a63643996dd"
+  },
+  {
+    "symbol": "PG",
+    "qty": 35,
+    "entry_price": 139.71,
+    "entry_date": "2026-06-02",
+    "thesis": "Procter & Gamble — defensive consumer-staples blue chip; portfolio of category-leading brands with pricing power and a dividend-king record. Up ~7.3%. RECONCILED from Alpaca order history 2026-06-15 (opening session unlogged). Sector: Consumer Staples.",
+    "stop_loss_pct": 0.05,
+    "order_id": "2e8ba9e5-32c4-4cb4-b370-8e5badee1d85"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-13",
+    "thesis": "Visa — global payments network with a durable toll-booth moat and secular tailwind from the shift to digital/cashless payments. Up ~1.0%; thesis intact. Sector: Financials.",
+    "stop_loss_pct": 0.05,
+    "order_id": "95507f7c-6832-4dc7-96ff-d99e958920d3"
+  },
+  {
+    "symbol": "VEA",
+    "qty": 72,
+    "entry_price": 69.77,
+    "entry_date": "2026-06-11",
+    "thesis": "Vanguard FTSE Developed Markets ETF — broad developed-market ex-US equity in one low-cost fund (ER ~0.03%). Geographic diversification; tailwinds from a weak USD and international outperformance YTD. Up ~3.9%. RECONCILED from Alpaca order history 2026-06-15 (opening session unlogged; replaced the earlier VXUS sleeve which was stopped out 06-09). Sector: International/Diversified.",
+    "stop_loss_pct": 0.05,
+    "order_id": "5198a7ff-3609-4820-8df1-aceefc6ee7e8"
   }
 ]
