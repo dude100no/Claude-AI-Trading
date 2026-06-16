@@ -1,34 +1,34 @@
-# Market Context — 2026-06-02 (second run)
+# Market Context — 2026-06-16
 
-**Sentiment:** Bullish (mildly extended / pausing)
-**VIX:** ~16.0 (calm) — no defensive mode
-**Key indices:** SPY/QQQ at record highs; futures slipped ~-0.2% pre-market after an 8-day winning streak.
-**Style used today:** Sector diversification entry — initiated International/Diversified sleeve (VXUS)
+**Sentiment:** Bullish (calm, mildly positive; Fed-watching)
+**VIX:** ~16.2 (calm) — no defensive mode
+**Key indices:** S&P 500 +0.13%, Dow +0.78%, Nasdaq +0.02% — holding steady ahead of the Fed June policy decision.
+**Style used today:** Defensive/hold + full memory reconciliation — no new entries.
+
+**CRITICAL OPS ISSUE — memory pipeline broken:**
+- Both `main` and `claude/gifted-lovelace-q50213` had memory frozen at 2026-06-02. The routine's Step 0 `remote` branch does NOT exist on the repo.
+- Yet the live account fully turned over since 06-02: **closed** DDOG, MDGL, NVDA, OXY, AMZN, LLY, VXUS (7); **opened** ABBV, GOOGL, HON, MCD, MSFT, NEE, PG, VEA (8). None of this was ever written to git memory.
+- Implication: every session since 06-02 has flown blind, reconciling from scratch and losing its entry theses. Owner needs to fix persistence (create/push the `remote` branch the routine expects, or point Step 0/10 at an existing branch).
+- This session reconciled `positions.json` to live truth. 8 of 11 positions lack original entry dates/theses → inferred and flagged with "reconciled-2026-06-16".
 
 **Key observations:**
-- Second session of 2026-06-02. The earlier same-day run reconciled stale memory and deployed ~$19k into AMZN/COST/LLY/JPM. This run focused on the one remaining diversification gap.
-- Live portfolio fully reconciled: all 9 prior positions present, no overnight stop-loss triggers, no unexpected positions. Net unrealized P&L ~+$1.16k (DDOG +22.4% led; NVDA +6.2%, OXY +5.6%).
-- Sectors Tech (DDOG, NVDA), Healthcare (MDGL, LLY), Financials (V, JPM) are all at the 2-position cap. Energy (OXY), Consumer Staples (COST), Consumer Discretionary (AMZN) each hold 1. International/Diversified was 0 — the only clean gap.
-- Bought VXUS 59 @ $86.72 (4.94%) to begin a geographic sleeve. Macro tailwind: weak USD, international equities outperforming US YTD, EM at new highs (Asian AI/semis demand, India/China inflows). VXUS = broad developed + emerging ex-US in one low-cost fund.
-- MDGL -8.2%: held. NOT a thesis break — May 27 new Phase 3 + real-world data show Rezdiffra reduced cardiovascular and liver-related risk in MASH; analysts uniformly Buy/Outperform with PTs $578–$709 vs ~$462 current. Price noise only.
-- OXY: held, no 2nd energy add. Live oil-headwind binary — Trump says gas prices will "drop like a rock," US-Iran deal optimism pressuring crude. Offsetting positives: Mizuho PT $75, accretive 10% Exxon deepwater Trinidad stake.
-- LLY: held; pipeline deepening (Hanmi/Haisco collaborations, Retevmo Phase 3 83% recurrence-risk cut, Jaypirca CLL data at EHA).
+- Live portfolio is healthy: all 11 positions show unrealized gains. Net unrealized P&L ~+$2,537. Portfolio value $104,073; cash $46,998 (~45% dry powder).
+- US-Iran interim deal → risk-on tone, but crude down ~5% below $85. Book has no oil/gas position, so no direct hit; NEE (utilities) and HON (industrials) modestly benefit from lower energy input costs.
+- No thesis-breaking news on any held name. ABBV got an FDA approval (SKINVIVE/JUVEDERM neck); JPM picked to lead an L3Harris missile-arm IPO.
+- Decision: hold everything, deploy no new capital. Reconciliation + pending Fed decision = prudent to stabilize state first. Portfolio already spans 8 sectors.
 
-**Trades today (this run):**
-- BUY VXUS x59 @ $86.72 (International/Diversified — new sector, 1st slot)
-
-**Portfolio sector map (10 positions, all within 2-per-sector cap):**
-- Technology: DDOG, NVDA (2/2)
-- Healthcare: MDGL, LLY (2/2)
-- Financials: V, JPM (2/2)
-- Energy: OXY (1/2)
-- Consumer Staples: COST (1/2)
-- Consumer Discretionary: AMZN (1/2)
-- International/Diversified: VXUS (1/2)
+**Portfolio sector map (11 positions, all within 2-per-sector cap):**
+- Technology: GOOGL, MSFT (2/2)
+- Healthcare: ABBV (1/2)
+- Financials: JPM, V (2/2)
+- Consumer Staples: COST, PG (2/2)
+- Consumer Discretionary: MCD (1/2)
+- Industrials: HON (1/2)
+- Utilities: NEE (1/2)
+- International/Diversified: VEA (1/2)
 
 **Watching next session:**
-- 2nd International slot: consider an EM-tilt add (IEMG, +momentum) or developed-ex-US (VEA) to complement VXUS — note VXUS already ~25% EM, so avoid over-tilting.
-- 2nd Energy/Staples/Consumer Disc slots open: hold off on 2nd energy until the US-Iran oil binary resolves; PG/KO drifting lower (not yet compelling) for 2nd Staples.
-- MDGL — monitor Rezdiffra launch metrics; exit only on a clear ramp disappointment (thesis break), not price noise. Trailing stop in place.
-- DDOG +22% — let the winner run; trailing stop protects gains.
-- Cash ~$53.8k (~52%) remains as dry powder for further diversification on pullbacks.
+- Fed June decision outcome — rate path drives utilities (NEE), financials (JPM, V) and broad risk appetite.
+- Open sector slots for diversification once state is stable and post-Fed: 2nd Healthcare, 2nd Consumer Discretionary, 2nd Industrials, 2nd Utilities, 2nd International, and a genuine Energy (oil/gas) entry — though hold off on energy while crude is falling on the Iran deal.
+- ~45% cash is ample dry powder; deploy gradually into underweight slots on post-Fed clarity.
+- CONFIRM memory persistence is fixed before next session, or this desync will repeat.
