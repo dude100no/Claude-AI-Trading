@@ -1,92 +1,101 @@
 [
   {
-    "symbol": "DDOG",
-    "qty": 25,
-    "entry_price": 213.44,
-    "entry_date": "2026-05-12",
-    "thesis": "Cloud observability/monitoring leader with strong net revenue retention and AI-driven monitoring tailwinds. Big winner (+24%); partial 18-share lot trailing-stopped out today at $269.97 for a locked gain, 25 shares retained to let the winner run. Sector: Technology.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-12"
-  },
-  {
-    "symbol": "MDGL",
-    "qty": 9,
-    "entry_price": 504.351111,
-    "entry_date": "2026-05-12",
-    "thesis": "Madrigal Pharmaceuticals — Rezdiffra (resmetirom), first FDA-approved therapy for MASH/NASH, addressing a large untapped liver-disease market in early launch ramp. Down ~7.6% on short-term noise; long-term launch thesis intact, not a thesis break. Sector: Healthcare.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-12"
-  },
-  {
-    "symbol": "NVDA",
+    "symbol": "ABBV",
     "qty": 23,
-    "entry_price": 216.763478,
-    "entry_date": "2026-05-26",
-    "thesis": "AI semiconductor leader; dominant data-center GPU franchise riding multi-year AI infrastructure buildout. CEO Huang reaffirmed returning 50%+ of free cash flow to shareholders this year. Up ~4.6%. Sector: Technology.",
+    "entry_price": 221.79,
+    "entry_date": "2026-06-17",
+    "thesis": "AbbVie — diversified pharma; Humira successors Skyrizi (+30.9% in Q1 FY26) and Rinvoq are now the growth engine. Q1 FY26 revenue $15B (+12.4% YoY), raised EPS guidance. Dividend King (54 consecutive annual increases). Buy consensus, avg PT ~$253.55 (~12.7% upside). Fills the Healthcare slot (was 0 after MDGL/LLY exits) with a defensive, low-rate-sensitivity name in a laggard sector (XLV ~-3% YTD) ahead of a hawkish-Fed binary. Risk: immunology competition, post-2030 patent cliffs, pipeline setbacks. Hold weeks-months. Sector: Healthcare.",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-26"
-  },
-  {
-    "symbol": "OXY",
-    "qty": 85,
-    "entry_price": 55.926118,
-    "entry_date": "2026-05-13",
-    "thesis": "Occidental Petroleum — Berkshire-backed energy major; oil structurally supported by Middle East tensions and OPEC dynamics. Energy sector leading YTD (+26%). Up ~4.8%. Geopolitical binary: a US-Iran deal could soften oil. Sector: Energy.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-13"
-  },
-  {
-    "symbol": "V",
-    "qty": 15,
-    "entry_price": 322.918,
-    "entry_date": "2026-05-13",
-    "thesis": "Visa — global payments network with a durable toll-booth moat and secular tailwind from the shift to digital/cashless payments. Roughly flat since entry; thesis intact. Sector: Financials.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-13"
-  },
-  {
-    "symbol": "AMZN",
-    "qty": 19,
-    "entry_price": 255.388421,
-    "entry_date": "2026-06-02",
-    "thesis": "Amazon — AWS cloud + advertising margin expansion plus dominant e-commerce franchise. Strong Buy consensus, avg analyst PT ~$313 (~18% upside). Four-day Prime Day (June 23) is a near-term consumer catalyst. Fills Consumer Discretionary sector (was 0). Risk: EU cloud-procurement tightening, consumer slowdown. Hold weeks-months. Sector: Consumer Discretionary.",
-    "stop_loss_pct": 0.05,
-    "order_id": "791f931c-a865-41b1-bd7b-15397a5d2939"
+    "order_id": "a8317bc7-fb75-4365-a8e4-bcbb222ed9ce"
   },
   {
     "symbol": "COST",
     "qty": 5,
     "entry_price": 948.66,
     "entry_date": "2026-06-02",
-    "thesis": "Costco — high-quality compounder; Q3 FY26 net sales +11.6%, comps +9.8%, digital comps +21.5%, membership fee income +10.7%. Buy consensus, avg PT ~$1,084-1,105 (~15% upside). Fills Consumer Staples (was 0). Risk: rich P/E ~48 leaves little margin for a growth stumble. Hold weeks-months. Sector: Consumer Staples.",
+    "thesis": "Costco — high-quality compounder; membership-fee annuity, strong comps and digital growth. Buy consensus. Held since 2026-06-02; up ~2.7%. Risk: rich P/E leaves little margin for a growth stumble. Hold weeks-months. Sector: Consumer Staples.",
     "stop_loss_pct": 0.05,
     "order_id": "19bc3f87-86da-42fc-9913-ad4c858e6355"
   },
   {
-    "symbol": "LLY",
-    "qty": 4,
-    "entry_price": 1077.0,
-    "entry_date": "2026-06-02",
-    "thesis": "Eli Lilly — best-in-class GLP-1/obesity and diabetes franchise (tirzepatide) with a deep, durable pipeline. Buy consensus, avg PT ~$1,215-1,265. Second Healthcare slot alongside MDGL. Risk: GLP-1 competition, pricing pressure, high valuation. Hold weeks-months. Sector: Healthcare.",
+    "symbol": "GOOGL",
+    "qty": 14,
+    "entry_price": 360.801429,
+    "entry_date": "2026-06-XX",
+    "thesis": "Alphabet — search + YouTube + Google Cloud + Gemini AI franchise. Reconciled from live account (opened in an untracked session between 2026-06-02 and 2026-06-17). Recent positives: HSBC Google Cloud AI deal, Gemini hardware launch, constructive G7 AI tone. Up ~1.0%. Risk: AI-agent disruption to search, antitrust. Held. Sector: Technology.",
     "stop_loss_pct": 0.05,
-    "order_id": "4d9d2035-6208-45bc-a683-0b5018516c21"
+    "order_id": "reconciled-2026-06-17"
+  },
+  {
+    "symbol": "HON",
+    "qty": 24,
+    "entry_price": 213.04,
+    "entry_date": "2026-06-XX",
+    "thesis": "Honeywell — diversified industrial (aerospace, automation, energy/sustainability). Reconciled from live account (opened in an untracked session). Industrials a 2026 outperformer (XLI ~+12% YTD). Up ~9.8% — strong winner. Risk: cyclical slowdown, breakup execution. Held; let the winner run under its trailing stop. Sector: Industrials.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-2026-06-17"
   },
   {
     "symbol": "JPM",
     "qty": 17,
     "entry_price": 299.42,
     "entry_date": "2026-06-02",
-    "thesis": "JPMorgan Chase — best-in-class money-center bank; Q1 FY26 revenue +10% YoY, net interest income +9%, results beat. Buy consensus, median PT ~$345 (~16% upside). Financials sector lagging YTD (-5%) offers rotation value; second Financials slot alongside V. Risk: rate/regulatory headwinds, credit cycle. Hold weeks-months. Sector: Financials.",
+    "thesis": "JPMorgan Chase — best-in-class money-center bank; Q1 FY26 beat, NII growth. Held since 2026-06-02; up ~12.4% — strong winner. Financials lagging YTD (XLF ~-5%) offers rotation value. Risk: rate/regulatory/credit-cycle headwinds. Hold weeks-months. Sector: Financials.",
     "stop_loss_pct": 0.05,
     "order_id": "2916a601-416f-496b-8b36-72585db20429"
   },
   {
-    "symbol": "VXUS",
-    "qty": 59,
-    "entry_price": 86.72,
-    "entry_date": "2026-06-02",
-    "thesis": "Vanguard Total International Stock ETF — broad developed + emerging markets ex-US in one low-cost fund (ER ~0.05%). Initiates geographic diversification (portfolio was 100% US). Tailwinds: weak USD, international equities outperforming US YTD, EM at new highs (Asian AI/semis, India/China inflows). First entry at 5% sizing; 2nd International slot reserved for a possible EM tilt (e.g. IEMG). Risk: USD strength reversal, EM/geopolitical volatility. Hold weeks-months. Sector: International/Diversified.",
+    "symbol": "MCD",
+    "qty": 18,
+    "entry_price": 275.47,
+    "entry_date": "2026-06-XX",
+    "thesis": "McDonald's — defensive global QSR with franchise model, pricing power and dividend growth. Reconciled from live account (opened in an untracked session). Up ~3.5%. Risk: consumer-spending slowdown, FX. Held. Sector: Consumer Discretionary.",
     "stop_loss_pct": 0.05,
-    "order_id": "ac3193c8-c2a8-41e7-9ee6-a6a1e3d53c94"
+    "order_id": "reconciled-2026-06-17"
+  },
+  {
+    "symbol": "MSFT",
+    "qty": 12,
+    "entry_price": 388.826667,
+    "entry_date": "2026-06-XX",
+    "thesis": "Microsoft — Azure cloud + Copilot/AI monetization + durable enterprise software franchise. Reconciled from live account (opened in an untracked session). Roughly flat (-0.8%). Risk: AI-capex digestion, valuation. Held; thesis intact. Sector: Technology.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-2026-06-17"
+  },
+  {
+    "symbol": "NEE",
+    "qty": 60,
+    "entry_price": 85.76,
+    "entry_date": "2026-06-XX",
+    "thesis": "NextEra Energy — largest US utility + leading renewables developer; regulated-earnings stability plus clean-energy growth. Reconciled from live account (opened in an untracked session). Roughly flat (+0.4%). Rate-sensitive — watch the Fed path. Risk: higher-for-longer rates pressure utilities. Held. Sector: Utilities.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-2026-06-17"
+  },
+  {
+    "symbol": "PG",
+    "qty": 35,
+    "entry_price": 139.71,
+    "entry_date": "2026-06-XX",
+    "thesis": "Procter & Gamble — defensive consumer-staples compounder; portfolio of category-leading brands, pricing power, Dividend King. Reconciled from live account (opened in an untracked session). Up ~8.9% — solid winner. Risk: volume softness, FX, input costs. Held. Sector: Consumer Staples.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-2026-06-17"
+  },
+  {
+    "symbol": "V",
+    "qty": 15,
+    "entry_price": 322.918,
+    "entry_date": "2026-05-13",
+    "thesis": "Visa — global payments network with a durable toll-booth moat and secular shift to digital/cashless payments. Held since 2026-05-13; up ~3.3%. Sector: Financials.",
+    "stop_loss_pct": 0.05,
+    "order_id": "inherited-2026-05-13"
+  },
+  {
+    "symbol": "VEA",
+    "qty": 72,
+    "entry_price": 69.77,
+    "entry_date": "2026-06-XX",
+    "thesis": "Vanguard FTSE Developed Markets ETF — low-cost broad developed-ex-US equity exposure; geographic diversification. Reconciled from live account (opened in an untracked session; replaces the prior VXUS international sleeve). Up ~4.9% on weak USD + international outperformance. Risk: USD-strength reversal, global growth slowdown. Held. Sector: International/Diversified.",
+    "stop_loss_pct": 0.05,
+    "order_id": "reconciled-2026-06-17"
   }
 ]
