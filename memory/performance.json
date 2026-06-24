@@ -49,5 +49,5 @@
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis. 2026-06-24 reconciliation: between 2026-06-02 and 2026-06-24 multiple UNLOGGED interim sessions ran and closed 8 tracked positions (DDOG, MDGL, NVDA, OXY, AMZN, COST, LLY, VXUS) and opened 4 new ones (ABBV, NEE, PG, VEA). Those interim sessions did not commit memory to this branch, so per-trade exit prices and realized P&L for the 8 closures are NOT reliably captured here; trade_history below therefore does NOT yet include them and the totals understate true realized activity. Not fabricating numbers — a full realized-P&L rebuild would require pulling complete Alpaca account activities. No positions were closed in the 2026-06-24 session itself (3 buys only: GOOGL, XOM, HD)."
 }
