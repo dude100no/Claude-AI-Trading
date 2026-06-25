@@ -1,34 +1,34 @@
-# Market Context — 2026-06-02 (second run)
+# Market Context — 2026-06-25
 
-**Sentiment:** Bullish (mildly extended / pausing)
-**VIX:** ~16.0 (calm) — no defensive mode
-**Key indices:** SPY/QQQ at record highs; futures slipped ~-0.2% pre-market after an 8-day winning streak.
-**Style used today:** Sector diversification entry — initiated International/Diversified sleeve (VXUS)
+**Sentiment:** Bullish (calm, AI-led)
+**VIX:** ~18.4 (down ~5% on the day) — no defensive mode
+**Key indices:** SPY +0.52%, QQQ/Nasdaq +0.24%; S&P up ~8% YTD near record territory
+**Style used today:** Reconciliation + sector diversification entry (MSFT, UNH)
 
 **Key observations:**
-- Second session of 2026-06-02. The earlier same-day run reconciled stale memory and deployed ~$19k into AMZN/COST/LLY/JPM. This run focused on the one remaining diversification gap.
-- Live portfolio fully reconciled: all 9 prior positions present, no overnight stop-loss triggers, no unexpected positions. Net unrealized P&L ~+$1.16k (DDOG +22.4% led; NVDA +6.2%, OXY +5.6%).
-- Sectors Tech (DDOG, NVDA), Healthcare (MDGL, LLY), Financials (V, JPM) are all at the 2-position cap. Energy (OXY), Consumer Staples (COST), Consumer Discretionary (AMZN) each hold 1. International/Diversified was 0 — the only clean gap.
-- Bought VXUS 59 @ $86.72 (4.94%) to begin a geographic sleeve. Macro tailwind: weak USD, international equities outperforming US YTD, EM at new highs (Asian AI/semis demand, India/China inflows). VXUS = broad developed + emerging ex-US in one low-cost fund.
-- MDGL -8.2%: held. NOT a thesis break — May 27 new Phase 3 + real-world data show Rezdiffra reduced cardiovascular and liver-related risk in MASH; analysts uniformly Buy/Outperform with PTs $578–$709 vs ~$462 current. Price noise only.
-- OXY: held, no 2nd energy add. Live oil-headwind binary — Trump says gas prices will "drop like a rock," US-Iran deal optimism pressuring crude. Offsetting positives: Mizuho PT $75, accretive 10% Exxon deepwater Trinidad stake.
-- LLY: held; pipeline deepening (Hanmi/Haisco collaborations, Retevmo Phase 3 83% recurrence-risk cut, Jaypirca CLL data at EHA).
+- MAJOR memory/live divergence again. Branch memory was stale at 2026-06-02 (10 positions). The live account held a different 9-position book (ABBV, GOOGL, HD, JPM, NEE, PG, V, VEA, XOM) — only V and JPM overlapped. Interpreted as branch desync from intervening production sessions, NOT 8 overnight stop-losses. Treated live as source of truth, rebuilt positions.json, and did not fabricate exit P&L for the vanished names.
+- Macro calm and constructive: VIX ~18.4 and falling, broad indices green. Micron's blowout earnings (revenue +346% to $41.46B, EPS $25.11) sparked an AI/semiconductor rally; market also digesting the Fed's PCE inflation gauge.
+- Live book was healthy: 8 of 9 positions green, net unrealized ~+$1.75k before today's buys (JPM +13%, ABBV +9.5%, PG +7.2% led). GOOGL -2.6% on AI-competition headlines + broad pullback — noise, not a thesis break.
+- Portfolio was sitting on ~54% cash. Deployed ~$9.97k into two open sector slots at 5% sizing: MSFT (2nd Technology) and UNH (2nd Healthcare).
+- MSFT entry is notable: bought at ~$354, essentially the 52-week low ($354-$555 range), on AI-capex-fear weakness ($190B 2026 capex). Azure +40% YoY, AI run-rate ~$37B, Buy consensus PT ~$565 — quality-on-weakness entry, not chasing.
 
-**Trades today (this run):**
-- BUY VXUS x59 @ $86.72 (International/Diversified — new sector, 1st slot)
+**Trades today:**
+- BUY MSFT x14 @ $354.19 (Technology — 2nd slot)
+- BUY UNH x12 @ $417.35 (Healthcare — 2nd slot)
 
-**Portfolio sector map (10 positions, all within 2-per-sector cap):**
-- Technology: DDOG, NVDA (2/2)
-- Healthcare: MDGL, LLY (2/2)
-- Financials: V, JPM (2/2)
-- Energy: OXY (1/2)
-- Consumer Staples: COST (1/2)
-- Consumer Discretionary: AMZN (1/2)
-- International/Diversified: VXUS (1/2)
+**Portfolio sector map (11 positions, all within 2-per-sector cap):**
+- Technology: GOOGL, MSFT (2/2)
+- Healthcare: ABBV, UNH (2/2)
+- Financials: JPM, V (2/2)
+- Consumer Discretionary: HD (1/2)
+- Consumer Staples: PG (1/2)
+- Utilities: NEE (1/2)
+- Energy: XOM (1/2)
+- International/Diversified: VEA (1/2)
 
 **Watching next session:**
-- 2nd International slot: consider an EM-tilt add (IEMG, +momentum) or developed-ex-US (VEA) to complement VXUS — note VXUS already ~25% EM, so avoid over-tilting.
-- 2nd Energy/Staples/Consumer Disc slots open: hold off on 2nd energy until the US-Iran oil binary resolves; PG/KO drifting lower (not yet compelling) for 2nd Staples.
-- MDGL — monitor Rezdiffra launch metrics; exit only on a clear ramp disappointment (thesis break), not price noise. Trailing stop in place.
-- DDOG +22% — let the winner run; trailing stop protects gains.
-- Cash ~$53.8k (~52%) remains as dry powder for further diversification on pullbacks.
+- BRANCH DESYNC is the top operational risk — memory in this branch keeps drifting from the live account between sessions. Reconcile against live every session; never trust stale positions.json blindly.
+- Open 2nd slots to fill on pullbacks: Consumer Discretionary, Consumer Staples, Utilities, Energy, International. ~$45.9k (~44%) cash remains as dry powder.
+- MSFT — watch whether the 52-week-low bounce holds; trailing 5% stop protects downside. Add only if thesis strengthens and price confirms.
+- GOOGL — monitor AI-competition narrative; hold unless a genuine fundamental break appears.
+- Macro: PCE inflation print and any Fed commentary; semis/AI momentum (Micron read-through) for broad risk appetite.
