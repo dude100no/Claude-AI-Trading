@@ -49,5 +49,6 @@
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis.",
+  "reconciliation_2026_06_26": "On 2026-06-26 the live Alpaca account was found to hold an entirely different 11-position book (ABBV/GOOGL/HD/JPM/MSFT/NEE/PG/UNH/V/VEA/XOM) vs this branch's stale memory (only JPM and V overlap). 8 prior positions (DDOG/MDGL/NVDA/OXY/AMZN/COST/LLY/VXUS) left the account between 2026-06-02 and 2026-06-26 via trading sessions that ran on a different branch. Their realized P&L is NOT captured in trade_history below because this branch never recorded the exits and exit prices were not available from the CLI — the authoritative performance record lives on the parallel branch. The total_realized_pl / total_trades / win-loss counts below therefore reflect ONLY trades logged through 2026-06-02 and UNDERSTATE actual account activity. Net UNREALIZED P&L on the current live book at reconciliation was ~+$2,393.66; portfolio value $103,797.99; cash $45,941.97."
 }
