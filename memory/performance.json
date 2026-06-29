@@ -49,5 +49,5 @@
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis. 2026-06-29: Live account diverged almost entirely from memory again (8 of 10 prior positions gone, replaced by 8 unexpected names) — clearly traded by untracked sessions. Realized P&L for the vanished positions (DDOG, MDGL, NVDA, OXY, AMZN, COST, LLY, VXUS) could NOT be reconstructed without order-history access, so totals below are NOT updated for those closures and understate true realized activity. No positions were closed by this session. Numbers should be re-reconciled from full Alpaca order history when available."
 }
