@@ -49,5 +49,5 @@
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis. 2026-07-01: MAJOR unexplained portfolio discrepancy detected — 8 of 10 memory positions (DDOG/MDGL/NVDA/OXY/AMZN/LLY/JPM/VXUS) were gone from the live account and 8 unrecognized positions (ABBV/AVGO/GOOGL/HD/NEE/UNH/VEA/XOM) had appeared, with no record of any of these trades in memory. Realized P&L for the vanished positions was NOT recorded here because exit prices are unknown and the change is not consistent with normal stop-loss exits (likely external/manual trading or a different account). total_realized_pl below reflects only trades this agent has verifiable records for; it does NOT include the unexplained 2026-07-01 turnover. Manual review recommended."
 }
