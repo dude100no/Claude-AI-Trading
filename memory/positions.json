@@ -1,92 +1,101 @@
 [
   {
-    "symbol": "DDOG",
-    "qty": 25,
-    "entry_price": 213.44,
-    "entry_date": "2026-05-12",
-    "thesis": "Cloud observability/monitoring leader with strong net revenue retention and AI-driven monitoring tailwinds. Big winner (+24%); partial 18-share lot trailing-stopped out today at $269.97 for a locked gain, 25 shares retained to let the winner run. Sector: Technology.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-12"
-  },
-  {
-    "symbol": "MDGL",
-    "qty": 9,
-    "entry_price": 504.351111,
-    "entry_date": "2026-05-12",
-    "thesis": "Madrigal Pharmaceuticals — Rezdiffra (resmetirom), first FDA-approved therapy for MASH/NASH, addressing a large untapped liver-disease market in early launch ramp. Down ~7.6% on short-term noise; long-term launch thesis intact, not a thesis break. Sector: Healthcare.",
-    "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-12"
-  },
-  {
-    "symbol": "NVDA",
+    "symbol": "ABBV",
     "qty": 23,
-    "entry_price": 216.763478,
-    "entry_date": "2026-05-26",
-    "thesis": "AI semiconductor leader; dominant data-center GPU franchise riding multi-year AI infrastructure buildout. CEO Huang reaffirmed returning 50%+ of free cash flow to shareholders this year. Up ~4.6%. Sector: Technology.",
+    "entry_price": 221.79,
+    "entry_date": "2026-06-17",
+    "thesis": "AbbVie — diversified biopharma; post-Humira growth engine (Skyrizi + Rinvoq immunology franchises compounding), deep pipeline and reliable dividend. Genmab/AbbVie EPCORE DLBCL-4 Phase 3 met primary goal (Jun 30) supporting label expansion. Up ~16%. Sector: Healthcare. [Reconciled from live account 2026-07-02.]",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-26"
+    "order_id": "a8317bc7-fb75-4365-a8e4-bcbb222ed9ce"
   },
   {
-    "symbol": "OXY",
-    "qty": 85,
-    "entry_price": 55.926118,
-    "entry_date": "2026-05-13",
-    "thesis": "Occidental Petroleum — Berkshire-backed energy major; oil structurally supported by Middle East tensions and OPEC dynamics. Energy sector leading YTD (+26%). Up ~4.8%. Geopolitical binary: a US-Iran deal could soften oil. Sector: Energy.",
+    "symbol": "AVGO",
+    "qty": 13,
+    "entry_price": 371.334615,
+    "entry_date": "2026-06-29",
+    "thesis": "Broadcom — AI networking/custom-silicon (XPU) leader plus VMware software annuity. Down ~2.4% on the Jul 1 semiconductor sector rout (rotation into Dow/value, not a thesis break). Multi-year AI infrastructure tailwind intact. Sector: Technology. [Reconciled from live account 2026-07-02.]",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-13"
+    "order_id": "e3173931-fd3c-445b-bb62-121117fa7726"
+  },
+  {
+    "symbol": "COST",
+    "qty": 5,
+    "entry_price": 939.55,
+    "entry_date": "2026-06-30",
+    "thesis": "Costco — high-quality compounder; membership-fee annuity, double-digit comps and digital growth, defensive demand. Re-entered Jun 30. Risk: rich P/E leaves little room for a growth stumble. Sector: Consumer Staples. [Reconciled from live account 2026-07-02.]",
+    "stop_loss_pct": 0.05,
+    "order_id": "71cdcc1e-5543-4b8f-b0bc-a62dcb7647ac"
+  },
+  {
+    "symbol": "GOOGL",
+    "qty": 15,
+    "entry_price": 352.29,
+    "entry_date": "2026-06-29",
+    "thesis": "Alphabet — Search + YouTube advertising, Google Cloud growth, and Gemini AI leadership; trades at a discount to mega-cap peers. Sector: Technology. [Reconciled from live account 2026-07-02.]",
+    "stop_loss_pct": 0.05,
+    "order_id": "67f40fd2-480e-4876-b899-4b61e9bf4d94"
+  },
+  {
+    "symbol": "HD",
+    "qty": 16,
+    "entry_price": 341.54,
+    "entry_date": "2026-06-24",
+    "thesis": "Home Depot — dominant home-improvement retailer with scale and pro-customer moat; leveraged to housing repair/remodel demand and eventual rate relief. Up ~4.4%. Sector: Consumer Discretionary. [Reconciled from live account 2026-07-02.]",
+    "stop_loss_pct": 0.05,
+    "order_id": "ddb2860b-5eed-4bc2-b8f5-2d4125a8f4f9"
+  },
+  {
+    "symbol": "NEE",
+    "qty": 60,
+    "entry_price": 85.76,
+    "entry_date": "2026-06-12",
+    "thesis": "NextEra Energy — largest US utility and world's biggest renewables developer; regulated cash flows plus electrification/AI-power demand tailwind. Defensive yield anchor. Up ~1.8%. Sector: Utilities. [Reconciled from live account 2026-07-02.]",
+    "stop_loss_pct": 0.05,
+    "order_id": "8b52de10-4e2d-4fee-bd67-1a63643996dd"
+  },
+  {
+    "symbol": "UNH",
+    "qty": 12,
+    "entry_price": 417.35,
+    "entry_date": "2026-06-25",
+    "thesis": "UnitedHealth — largest US managed-care insurer plus Optum health-services engine; scale and vertical integration underpin durable earnings. Up ~2.6%. Sector: Healthcare. [Reconciled from live account 2026-07-02.]",
+    "stop_loss_pct": 0.05,
+    "order_id": "10ce078a-4f29-475f-8a94-d05ce9f54e2a"
   },
   {
     "symbol": "V",
     "qty": 15,
     "entry_price": 322.918,
     "entry_date": "2026-05-13",
-    "thesis": "Visa — global payments network with a durable toll-booth moat and secular tailwind from the shift to digital/cashless payments. Roughly flat since entry; thesis intact. Sector: Financials.",
+    "thesis": "Visa — global payments network with a durable toll-booth moat and secular shift to digital/cashless payments. Up ~11.4%; thesis intact and strengthening. Sector: Financials.",
     "stop_loss_pct": 0.05,
-    "order_id": "inherited-2026-05-13"
+    "order_id": "95507f7c-6832-4dc7-96ff-d99e958920d3"
   },
   {
-    "symbol": "AMZN",
-    "qty": 19,
-    "entry_price": 255.388421,
-    "entry_date": "2026-06-02",
-    "thesis": "Amazon — AWS cloud + advertising margin expansion plus dominant e-commerce franchise. Strong Buy consensus, avg analyst PT ~$313 (~18% upside). Four-day Prime Day (June 23) is a near-term consumer catalyst. Fills Consumer Discretionary sector (was 0). Risk: EU cloud-procurement tightening, consumer slowdown. Hold weeks-months. Sector: Consumer Discretionary.",
+    "symbol": "VEA",
+    "qty": 72,
+    "entry_price": 69.77,
+    "entry_date": "2026-06-11",
+    "thesis": "Vanguard FTSE Developed Markets ETF — broad developed-ex-US equity exposure at low cost; geographic diversification, weak-USD tailwind, international outperforming US YTD. Up ~1.4%. Sector: International/Diversified. [Reconciled from live account 2026-07-02.]",
     "stop_loss_pct": 0.05,
-    "order_id": "791f931c-a865-41b1-bd7b-15397a5d2939"
+    "order_id": "5198a7ff-3609-4820-8df1-aceefc6ee7e8"
   },
   {
-    "symbol": "COST",
-    "qty": 5,
-    "entry_price": 948.66,
-    "entry_date": "2026-06-02",
-    "thesis": "Costco — high-quality compounder; Q3 FY26 net sales +11.6%, comps +9.8%, digital comps +21.5%, membership fee income +10.7%. Buy consensus, avg PT ~$1,084-1,105 (~15% upside). Fills Consumer Staples (was 0). Risk: rich P/E ~48 leaves little margin for a growth stumble. Hold weeks-months. Sector: Consumer Staples.",
+    "symbol": "XOM",
+    "qty": 37,
+    "entry_price": 135.97,
+    "entry_date": "2026-06-24",
+    "thesis": "ExxonMobil — integrated energy major; low-cost Permian + Guyana production, strong balance sheet and shareholder returns. Re-entered Jun 24 after an earlier higher lot stopped out. Energy sector a 2026 leadership theme. Up ~0.8%. Sector: Energy. [Reconciled from live account 2026-07-02.]",
     "stop_loss_pct": 0.05,
-    "order_id": "19bc3f87-86da-42fc-9913-ad4c858e6355"
+    "order_id": "e222c959-d6ae-4b40-bbb1-daf0dacaabb9"
   },
   {
-    "symbol": "LLY",
+    "symbol": "GEV",
     "qty": 4,
-    "entry_price": 1077.0,
-    "entry_date": "2026-06-02",
-    "thesis": "Eli Lilly — best-in-class GLP-1/obesity and diabetes franchise (tirzepatide) with a deep, durable pipeline. Buy consensus, avg PT ~$1,215-1,265. Second Healthcare slot alongside MDGL. Risk: GLP-1 competition, pricing pressure, high valuation. Hold weeks-months. Sector: Healthcare.",
+    "entry_price": 1115.0,
+    "entry_date": "2026-07-02",
+    "thesis": "GE Vernova — power-generation and grid-electrification leader riding secular AI-data-center power demand and grid modernization (less cyclical than construction-driven industrials). Q1 orders +71% YoY, backlog ~$163B heading to a $200B target by 2027; Buy consensus, avg PT ~$1,212 (~9% upside). Fills the empty Industrials sleeve (1st slot). Risk: rich valuation after a strong run (+69% YTD); a pullback could trip the 5% trailing stop. Hold weeks-months. Sector: Industrials.",
     "stop_loss_pct": 0.05,
-    "order_id": "4d9d2035-6208-45bc-a683-0b5018516c21"
-  },
-  {
-    "symbol": "JPM",
-    "qty": 17,
-    "entry_price": 299.42,
-    "entry_date": "2026-06-02",
-    "thesis": "JPMorgan Chase — best-in-class money-center bank; Q1 FY26 revenue +10% YoY, net interest income +9%, results beat. Buy consensus, median PT ~$345 (~16% upside). Financials sector lagging YTD (-5%) offers rotation value; second Financials slot alongside V. Risk: rate/regulatory headwinds, credit cycle. Hold weeks-months. Sector: Financials.",
-    "stop_loss_pct": 0.05,
-    "order_id": "2916a601-416f-496b-8b36-72585db20429"
-  },
-  {
-    "symbol": "VXUS",
-    "qty": 59,
-    "entry_price": 86.72,
-    "entry_date": "2026-06-02",
-    "thesis": "Vanguard Total International Stock ETF — broad developed + emerging markets ex-US in one low-cost fund (ER ~0.05%). Initiates geographic diversification (portfolio was 100% US). Tailwinds: weak USD, international equities outperforming US YTD, EM at new highs (Asian AI/semis, India/China inflows). First entry at 5% sizing; 2nd International slot reserved for a possible EM tilt (e.g. IEMG). Risk: USD strength reversal, EM/geopolitical volatility. Hold weeks-months. Sector: International/Diversified.",
-    "stop_loss_pct": 0.05,
-    "order_id": "ac3193c8-c2a8-41e7-9ee6-a6a1e3d53c94"
+    "order_id": "937e5e08-e73c-423e-86bd-9ce0ccfa8026"
   }
 ]
