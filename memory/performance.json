@@ -1,7 +1,7 @@
 {
-  "total_realized_pl": 2394.03,
-  "total_trades": 4,
-  "winning_trades": 2,
+  "total_realized_pl": 2435.99,
+  "total_trades": 5,
+  "winning_trades": 3,
   "losing_trades": 2,
   "trade_history": [
     {
@@ -47,7 +47,18 @@
       "realized_pl": 1017.54,
       "result": "win",
       "note": "Partial exit: an 18-share trailing stop triggered intraday, banking gains; 25 shares retained to let the winner run."
+    },
+    {
+      "symbol": "GEV",
+      "qty": 4,
+      "entry_price": 1050.50,
+      "exit_price": 1040.01,
+      "entry_date": "2026-07-07",
+      "exit_date": "2026-07-07",
+      "realized_pl": 41.96,
+      "result": "win",
+      "note": "UNINTENDED naked short. An orphaned trailing-stop SELL (left behind after the 07-07 position wipe) fired against a non-existent long, opening a -4 GEV short at avg 1050.50. Covered same day at 1040.01 via close_position. Small gain, but the trade itself was an error artifact, not a strategy trade."
     }
   ],
-  "note": "Reconciled from Alpaca order history on 2026-06-02 — prior sessions had left performance.json un-updated. Figures use Alpaca average-cost basis."
+  "note": "STALE + INCIDENT. This branch's memory went un-updated from 2026-06-03 to 2026-07-07 while ~30+ live trades executed (visible in Alpaca order history) that are NOT reconciled here. total_realized_pl and counts reflect ONLY the trades listed in trade_history and materially understate true activity. On 2026-07-07 a paper-account integrity event wiped the entire long book (~8 positions: COST/GOOGL/UNH/HD/ABBV/NEE/VEA/V) without sale proceeds: equity fell from last_equity $104,224.70 to $51,934.57 (~-50% in one day) with cash roughly unchanged (~$56k). This is an account/broker anomaly, not a trading loss, so a normal P&L reconciliation of the intervening period is not meaningful. Account was flattened to $51,918.89 all-cash on 2026-07-07 (orphaned stops cancelled, GEV short covered)."
 }
